@@ -1,0 +1,510 @@
+
+CURSOS
+Técnico de Electrónica e Telecomunicações
+Técnico de Energias Renováveis / Sistemas Solares Térmicos
+Técnico de Gestão
+Técnico de Gestão e Programação de Sistemas Informáticos
+Técnico de Manutenção Industrial
+Técnico de Secretariado
+Técnico de Informática de Gestão
+Técnico de Design de Interiores e Exteriores
+
+DISCIPLINAS
+Português
+Inglês (Inic.)
+Alemão (Inic.)
+Francês (Inic.)
+Espanhol (Inic.)
+Inglês (Cont.)
+Alemão (Cont.)
+Francês (Cont.)
+Espanhol (Cont.)
+Área de Integração
+Tecnologias de Informação e Comunicação
+Educação Física
+Biologia
+Biologia e Geologia
+Economia
+Física e Química
+Geometria Descritiva
+História da Cultura e das Artes
+Matemática
+Psicologia e Sociologia
+Sociologia
+Direito
+Geografia
+Psicologia
+Sistemas Operativos
+Arquitectura de Computadores
+Redes de Comunicação
+Programação e Sistemas de Informação
+Tecnologia e Processos
+Organização Industrial
+Desenho Técnico
+Práticas Oficinais
+Electricidade e Electrónica
+Tecnologias Aplicadas
+Sistemas Digitais
+Telecomunicações
+Gestão
+Contabilidade e Fiscalidade
+Direito das Organizações
+Cálculo Financeiro e Estatística Aplicada
+Técnicas de Secretariado
+Legislação Comercial, Fiscal e Laboral
+Técnicas de Cálculo e Contabilidade
+Linguagens de Programação
+Org. de Empresas e Aplicações de Gestão
+Sistemas de Informação
+Aplicações Inf. e Sistemas de Exploração
+Desenho e Comunicação Visual
+Design Gráfico
+Oficina Gráfica 
+Desenho de Comunicação
+Desenho Assistido por Computador
+Materiais e Tecnologias
+Design de Interiores/Exteriores
+
+MODULOS
+PORTUGUES
+Textos de Carácter Autobiográfico
+Textos Expressivos e Criativos e Textos Poéticos
+Textos dos Media I
+Textos Narrativos/Descritivos I
+Textos dos Media II
+Textos Argumentativos
+Textos de Teatro I
+Textos Narrativos/Descritivos e Textos Líricos
+Textos Líricos
+Textos Épicos e Textos Épico-líricos
+Textos de Teatro II
+Textos Narrativos/Descritivos II
+
+AREA DE INTEGRACAO
+1.1 – A construção do conhecimento ou o fogo de Prometeu
+1.2 – Pessoa e cultura
+1.3 – A comunicação e a construção do indivíduo
+2.1 – Estrutura familiar e dinâmica social
+2.2 – A construção do social
+2.3 – A construção da democracia
+3.1 – O Homem e a Terra
+3.2 – Filhos do Sol
+3.3 – Homem-Natureza: uma relação sustentável?
+4.1 – A identidade regional
+4.2 – A região e o espaço nacional
+4.3 – Desequilíbrios regionais
+5.1 – A integração no espaço europeu
+5.2 – A cidadania europeia
+5.3 – A cooperação transfronteiriça
+6.1 – O trabalho, a sua evolução e estatuto no Ocidente
+6.2 – O desenvolvimento de novas atitudes no trabalho e no emprego: o empreendedorismo
+6.3 – As organizações do trabalho
+7.1 – Cultura Global ou Globalização das Culturas?
+7.2 – Um desafio global: o desenvolvimento sustentável
+7.3 – O papel das organizações internacionais
+8.1 – Das Economias-mundo à Economia Global
+8.2 – Da multiplicidade dos saberes à Ciência como construção racional do real
+8.3 – De Alexandria à era digital: a difusão do conhecimento através dos seus suportes
+9.1 – Os fins e os meios: que Ética para a vida humana?
+9.2 – A formação da sensibilidade cultural e a transfiguração da experiência: a Estética
+9.3 – A experiência religiosa como afirmação do espaço espiritual no mundo
+
+TIC
+Folha de Cálculo
+Gestão de Base de Dados
+Criação de Páginas Web
+
+EDUCACAO FISICA
+JDC I
+JDC II
+JDC III
+GIN I
+GIN II
+GIN III
+ATL/RAQ/PAT I
+ATL/RAQ/PAT II
+ACT.EXPL.NAT.
+DANÇA I
+DANÇA II
+DANÇA III
+APTIDÃO FÍSICA
+ACT.FIS/CONTEXTOS E SAÚDE I
+ACT.FIS/CONTEXTOS E SAÚDE II
+ACT.FIS/CONTEXTOS E SAÚDE III
+
+MATEMATICA
+Geometria
+Funções Polinomiais
+Estatística
+Funções Periódicas
+Funções Racionais
+Taxa de Variação
+Probabilidade
+Modelos Discretos
+Funções de Crescimento
+Optimização
+Funções Periódicas e Não Periódicas
+Estatística Computacional
+Modelos de Funções
+Programação Linear
+Jogos e Matemática
+Padrões Geométricos
+
+FISICA E QUIMICA
+F1 Forças e Movimentos
+E1.F1 Estática
+E2.F1 Trabalho e Energia
+E3.F1 Máquinas Simples
+F2 Hidrostática e Hidrodinâmica
+F3 Luz e Fontes de Luz
+E1.F3 Óptica Geométrica
+E2.F3 Óptica Ondulatória e Óptica Quântica
+F4 Circuitos Eléctricos
+E.F4 Circuitos Eléctricos de Corrente Alternada
+F5 Termodinâmica
+F6 Som
+E.F6 Som e Música
+Q1 Estrutura Atómica. Tabela Periódica. Ligação Química.
+E.Q1 Modelo Quântico para o Átomo
+Q2 Soluções
+E.Q2 Colóides e Suspensões
+Q3 Reacções Químicas. Equilíbrio Químico Homogéneo.
+E.Q3 Equilíbrio Químico Heterogéneo
+Q4 Equilíbrio de Ácido-base
+E.Q4 Titulações Ácido-base
+Q5 Equilíbrio de Oxidação-redução
+E.Q5 Electroquímica
+Q6 Estado Físico das Substâncias e Interacções Moleculares. Estado Gasoso.
+Q7 Compostos Orgânicos. Reacções Químicas.
+E1.Q7 Polímeros e Materiais Poliméricos
+E2.Q7 Ligas Metálicas, Materiais Cerâmicos e Compósitos
+
+ECONOMIA
+A Economia e o Problema Económico
+Agentes Económicos e Actividades Económicas
+Mercados de Bens e Serviços e de Factores Produtivos
+Moeda e Financiamento da Actividade Económica
+O Estado e a Actividade Económica
+A Interdependência das Economias Actuais
+Crescimento, Desenvolvimento e Flutuações da Actividade Económica
+A Economia Portuguesa na Actualidade
+
+TECNOLOGIA E PROCESSOS
+Metrologia
+Tecnologia dos Materiais
+Mecânica dos Materiais
+Processos de Fabrico
+Corrosão, Atrito e Lubrificação
+Transmissão e Transformação de Movimento
+Pneumática e Hidráulica
+Energias
+Electricidade I (Corrente contínua)
+Electricidade II (Corrente alternada)
+Máquinas Térmicas I (Máquinas de combustão)
+Máquinas Térmicas II (Frio e climatização)
+Máquinas Eléctricas
+Controle de Condição
+Electrotecnia I
+Electrotecnia II
+Electrónica
+Electrónica de Potência
+Sistemas Lógicos I (Circuitos combinatórios)
+Sistemas Lógicos II (Circuitos sequenciais)
+Electricidade (Corrente contínua e corrente alternada)
+Mecânica dos Fluidos
+Materiais e Equipamentos Físicos
+Aerodinâmica e Teoria de Voo
+Legislação Aeronáutica
+Instrumentação Electrónica I
+Instrumentação Electrónica II
+
+ORG. INDUSTRIAL
+Higiene, Segurança e Ambiente
+A Empresa
+Organização e Gestão
+Qualidade e Fiabilidade
+Factores Humanos
+
+DESENHO TECNICO
+Normalização e Desenho Geométrico
+Geometria Descritiva
+Projecções e Perspectivas
+Cortes, Secções e Planificações
+Cotagem e Tolerâncias
+Elementos de Ligação e Desenho de Conjunto
+Desenho Esquemático
+
+PRATICAS OFICINAIS
+Metrologia Oficinal
+Ferramentas e Equipamentos
+Serralharia de Bancada
+Maquinação ( I )
+Processos de Ligação
+CAD I
+CAD II
+Modelação 3D CAD/CAM
+CNC (Comando Numérico Computorizado)
+Maquinação II
+Circuitos de Iluminação e de Sinalização
+Quadros Eléctricos
+Automatismos ( I )
+Preparação do Trabalho e Planeamento 
+Gestão da Manutenção
+Manutenção de Órgãos e Equipamentos
+Projecto de Electromecânica
+Instrumentação e Medidas
+Automatismos II
+Automatismos III
+Microcontroladores
+Robótica I
+Robótica II
+Projecto de Mecatrónica
+Sistemas de Automóvel I
+Sistemas de Automóvel II
+Sistemas de Automóvel III
+Sistemas de Automóvel IV
+Sistemas de Automóvel V
+Sistemas de Automóvel VI
+Sistemas de Automóvel VII
+Diagnóstico Automóvel I
+Diagnóstico Automóvel II
+Estruturas de Aeronaves I
+Estruturas de Aeronaves II
+Sistemas de Aeronaves I
+Sistemas de Aeronaves II
+Sistemas de Aeronaves III
+Sistemas de Aeronaves IV
+Sistemas de Aeronaves V
+Sistemas de Aeronaves VI
+Motopropulsores I
+Motopropulsores II
+Motopropulsores III
+Processos e Práticas de Manutenção I
+Processos e Práticas de Manutenção II
+Processos e Práticas de Manutenção III
+
+OEAG
+A Empresa
+Documentação Comercial
+Gestão de Aprovisionamentos e Vendas
+Aplicações de Gestão Comercial
+Contratos
+Introdução à Contabilidade
+Contabilidade Financeira
+Análise e Gestão Financeira
+Aplicações de Contabilidade
+Gestão de Recursos Humanos
+Aplicações de Gestão de Recursos Humanos
+
+LP
+Algoritmia
+Introdução à Linguagem de Programação
+Estruturas de Controlo
+Subprogramas (Procedimentos e Funções)
+Tipo Estruturado - Tabelas
+Tipo Estruturado – Registos
+Estruturas Dinâmicas (Apontadores)
+Ficheiros
+Projecto
+Introdução à Programação Orientada por Objectos
+Introdução à Linguagem de Programação Orientadas por Objectos
+Fundamentos Avançados de Programação Orientada por Objectos
+Gestão de Componentes
+Acesso a Bases de Dados
+Especificação e Documentação
+Instalação e Apoio ao Utilizador
+Desenvolvimento de uma Aplicação de Gestão
+
+SIST. INF.
+Análise de Sistemas
+Tecnologias de Bases de Dados
+Programação SQL
+Servidor de Dados
+Gestão de conteúdos partilhados
+Aplicações baseadas em browsers
+Acesso remoto a bases de dados
+Projecto
+
+AISE
+Componentes Informáticos
+Processador de texto avançado
+Folha de cálculo avançada
+Tecnologias de rede
+Utilização de um SO cliente/servidor
+Instalação, configuração e administração de um SO
+Políticas de segurança
+
+Inglês (Inic.)
+O Mundo Pessoal e Quotidiano
+Vivências e Convivências
+Padrões de Vida
+Comunicação e Sociedade
+A Vida Profissional
+O Ambiente e o Consumo
+O Mundo Tecnológico
+Os Jovens na Era Global
+O Mundo de Trabalho
+Línguas e Cidadania
+
+Alemão (Inic.)
+Eu, o Meu Mundo e as Minhas Línguas
+Vida Social: Relações Interpessoais e Actividades Conjuntas
+Vida Familiar Hoje: Rotinas e Estilos de Vida
+A Internet como Meio Privilegiado de Informação e Comunicação
+Vida Profissional: Expectativas e Projectos
+Consumo e Protecção Ambiental
+Os Media e as Tecnologias da Informação e da Comunicação
+Os Jovens e o Mundo à Sua Volta
+Padrões de Vida: Trabalho e Lazer
+Comunidade Internacional: Cidadania e Línguas na Era Global
+
+Francês (Inic.)
+Vivre en français
+Organiser le quotidien
+Choisir un espace de vie
+Chercher du travail
+Etre au courant
+Profiter de la vie
+Penser l’avenir
+Construire l’Europe
+Partager les cultures
+Découvrir une oeuvre
+
+Espanhol (Inic.)
+Eu na Escola
+Vivências e Convivências
+Lugares e Transportes
+Serviços e Consumo
+Saúde e Cuidados Pessoais
+Organização do Trabalho
+Tempo de Lazer
+Juventude e Cidadania
+Língua e Comunicação
+O Mundo do Trabalho
+
+Inglês (Cont.)
+Eu e o Mundo Profissional
+Um Mundo de Muitas Línguas
+O Mundo Tecnológico
+Os Media e a Comunicação Global
+Os Jovens na Era Global
+O Mundo à Nossa Volta
+Os Jovens e o Consumo
+O Mundo do Trabalho
+A Comunicação no Mundo Profissional
+
+Alemão (Cont.)
+O Espaço de Língua Alemã na Actualidade
+Vida Profissional
+Vida Pessoal e Afectiva
+Famílias de Hoje
+A Internet como Recurso ao Serviço da Aprendizagem
+Consumo e Gastos Pessoais
+Actividades Culturais e Desportivas
+Protecção Ambiental
+Os Media e as TIC no Mundo Profissional
+
+Francês (Cont.)
+Parcours personnels
+Parcours professionnels
+Autour d’un film
+Médias et société
+Communication et globalisation
+Autour d’une oeuvre intégrale
+Recherche et avenir
+Ethique et qualité de vie
+Autour d’un projet
+
+Espanhol (Cont.)
+Aprender a Aprender
+Pessoas e Relações
+Juventude e Cidadania
+Saúde e Cuidados Corporais
+Serviços e Consumo
+Tempo de Lazer
+Temas da Actualidade
+O Mundo do Trabalho
+Língua e Cultura
+
+
+
+
+TURMAS
+12;J
+12;L
+
+ALUNOS
+1;BRUNO MIGUEL LOPES DIAS
+2;CARLOS MARIA ANDRADE MIRA MARQUES
+3;FILIPE MANUEL BONITO PINTO
+4;GESIEL ISAQUE MOREIRA
+5;GILBERTO JORGE GIL SEVERINO
+6;GONÇALO BERNARDO DE ORNELAS PEDREIRA
+7;JOÃO CARLOS ALVES DOS SANTOS
+8;JOÃO MIGUEL CORREIA CARAPINHA
+9;JOÃO PAULO ZAGALO PIMPÃO
+10;JOSÉ CARLOS CASCALHO PEDREIRINHO
+11;LUIS MIGUEL MALARRANHA CÂNDIDO
+12;PEDRO MIGUEL LAMEIRAS GRENHO
+13;TIAGO FILIPE MARQUES RUSSO
+14;VASCO JORGE GODINHO COLAÇO VALIDO
+15;VICTOR EMMANUEL PEREIRA GONÇALVES
+16;VITOR MANUEL BARROSINHA ALMEIDA
+
+1;ALEXANDRA ISABEL RATO CHAVEIRO
+2;BRUNO PRATES GIGA
+3;CARLOS MIGUEL GEADA SANTOS FERREIRA
+5;DIOGO EMANUEL FERNANDES GUERRA
+6;JOÃO EUGÉNIO PÉ LEVE DOS REYS SANTOS
+7;MARCUS VINICIUS COELHO SANTOS
+8;MARTA ALEXANDRA ANTUNES SERAFIM
+10;NUNO MIGUEL ABADIA BRITES
+13;TÂNIA CRISTINA RODRIGUES VARELA
+15;NUNO JOSÉ FERREIRA DA COSTA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

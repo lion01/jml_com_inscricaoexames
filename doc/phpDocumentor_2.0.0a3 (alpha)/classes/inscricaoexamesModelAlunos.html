@@ -1,0 +1,420 @@
+<!DOCTYPE html><html xmlns:date="http://exslt.org/dates-and-times" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>com_inscricaoexames » \inscricaoexamesModelAlunos</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">com_inscricaoexames</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/inscricaoexames.html"><i class="icon-folder-open"></i> inscricaoexames</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">97</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods</li>
+<li class="method public "><a href="#delAlunos" title="delAlunos :: delete a student list"><span class="description">delete a student list</span><pre>delAlunos()</pre></a></li>
+<li class="method public "><a href="#existe" title="existe :: Check if a student exists in the application"><span class="description">Check if a student exists in the application</span><pre>existe()</pre></a></li>
+<li class="method public "><a href="#getAluno" title="getAluno :: Returns a student data (alunos, cursos)"><span class="description">Returns a student data (alunos, cursos)</span><pre>getAluno()</pre></a></li>
+<li class="method public "><a href="#getAlunoID" title="getAlunoID :: Returns a Joomla ID associated with a personal ID
+Devolve o ID do Joomla correspondente a um BI da aplicação. Se o seu BI não existir na BD, devolve false. Se o ID n existir devolve null."><span class="description">Returns a Joomla ID associated with a personal ID
+Devolve o ID do Joomla correspondente a um BI da aplicação. Se o seu BI não existir na BD, devolve false. Se o ID n existir devolve null.</span><pre>getAlunoID()</pre></a></li>
+<li class="method public "><a href="#getAlunos" title="getAlunos :: Gets the list of alunos in a course"><span class="description">Gets the list of alunos in a course</span><pre>getAlunos()</pre></a></li>
+<li class="method public "><a href="#getAlunosCurso" title="getAlunosCurso :: Returns a list of the students in a course"><span class="description">Returns a list of the students in a course</span><pre>getAlunosCurso()</pre></a></li>
+<li class="method public "><a href="#getTable" title="getTable :: Returns a reference to the a Table object, always creating it."><span class="description">Returns a reference to the a Table object, always creating it.</span><pre>getTable()</pre></a></li>
+<li class="method public "><a href="#insAlunos" title="insAlunos :: Insert student list in a course"><span class="description">Insert student list in a course</span><pre>insAlunos()</pre></a></li>
+<li class="method public "><a href="#registado" title="registado :: Checks if a student is registered in the application. If there is no Joomla ID associated with a personal ID, returns false."><span class="description">Checks if a student is registered in the application. If there is no Joomla ID associated with a personal ID, returns false.</span><pre>registado()</pre></a></li>
+<li class="method public "><a href="#setAluno" title="setAluno :: Insert student data"><span class="description">Insert student data</span><pre>setAluno()</pre></a></li>
+<li class="method public "><a href="#setAlunoID" title="setAlunoID :: Associates a Joomal ID to a personal ID"><span class="description">Associates a Joomal ID to a personal ID</span><pre>setAlunoID()</pre></a></li>
+<li class="method public "><a href="#setAutorizacao" title="setAutorizacao :: set the exam authorization for a student"><span class="description">set the exam authorization for a student</span><pre>setAutorizacao()</pre></a></li>
+<li class="method public "><a href="#unSetAlunoID" title="unSetAlunoID :: Deletes the association between a Joomla ID and a personal ID"><span class="description">Deletes the association between a Joomla ID and a personal ID</span><pre>unSetAlunoID()</pre></a></li>
+<li class="method public "><a href="#updateAlunos" title="updateAlunos :: update several student data"><span class="description">update several student data</span><pre>updateAlunos()</pre></a></li>
+<li class="nav-header private">» Private</li>
+<li class="method private "><a href="#delAluno" title="delAluno :: Deletes a student"><span class="description">Deletes a student</span><pre>delAluno()</pre></a></li>
+</ul>
+</div>
+<div class="span8">
+<a name="%5CinscricaoexamesModelAlunos" id="\inscricaoexamesModelAlunos"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/default.html">default</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/inscricaoexamesModelAlunos.html">inscricaoexamesModelAlunos</a>
+</li>
+</ul>
+<div href="../classes/inscricaoexamesModelAlunos.html" class="element class"><div class="details">
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a name="delAlunos" id="delAlunos"></a><div class="element clickable method public delAlunos" data-toggle="collapse" data-target=".delAlunos .collapse">
+<h2>delete a student list</h2>
+<pre>delAlunos(\id_list $id_list) : true</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$id_list</h4>
+<code>\id_list</code><p>array with students IDs</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>true</code>on success</div>
+</div></div>
+</div>
+<a name="existe" id="existe"></a><div class="element clickable method public existe" data-toggle="collapse" data-target=".existe .collapse">
+<h2>Check if a student exists in the application</h2>
+<pre>existe(\bi $bi) : boolean</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$bi</h4>
+<code>\bi</code><p>student personal ID nbr</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>boolean</code></div>
+</div></div>
+</div>
+<a name="getAluno" id="getAluno"></a><div class="element clickable method public getAluno" data-toggle="collapse" data-target=".getAluno .collapse">
+<h2>Returns a student data (alunos, cursos)</h2>
+<pre>getAluno(\id $user_id) : Object</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$user_id</h4>
+<code>\id</code><p>student id</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>Object</code>[id, nome, cursos_id, curso]</div>
+</div></div>
+</div>
+<a name="getAlunoID" id="getAlunoID"></a><div class="element clickable method public getAlunoID" data-toggle="collapse" data-target=".getAlunoID .collapse">
+<h2>Returns a Joomla ID associated with a personal ID
+Devolve o ID do Joomla correspondente a um BI da aplicação. Se o seu BI não existir na BD, devolve false. Se o ID n existir devolve null.</h2>
+<pre>getAlunoID(\bi $bi) : \The</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$bi</h4>
+<code>\bi</code><p>personal student ID</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>\The</code>Joomla ID correspondent to the personal ID given. False if the personal ID doesn't exist, NULL if the Joomla ID doesn't exist.</div>
+</div></div>
+</div>
+<a name="getAlunos" id="getAlunos"></a><div class="element clickable method public getAlunos" data-toggle="collapse" data-target=".getAlunos .collapse">
+<h2>Gets the list of alunos in a course</h2>
+<pre>getAlunos(\turmas_id $turmas_id) : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$turmas_id</h4>
+<code>\turmas_id</code><p>The course id</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>array</code>the list of modules</div>
+</div></div>
+</div>
+<a name="getAlunosCurso" id="getAlunosCurso"></a><div class="element clickable method public getAlunosCurso" data-toggle="collapse" data-target=".getAlunosCurso .collapse">
+<h2>Returns a list of the students in a course</h2>
+<pre>getAlunosCurso(\cursos_id $cursos_id) : \associative</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$cursos_id</h4>
+<code>\cursos_id</code><p>course ID</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>\associative</code>array</div>
+</div></div>
+</div>
+<a name="getTable" id="getTable"></a><div class="element clickable method public getTable" data-toggle="collapse" data-target=".getTable .collapse">
+<h2>Returns a reference to the a Table object, always creating it.</h2>
+<pre>getTable(\type $type, string $prefix, array $config) : \JTable</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered">
+<tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr>
+<tr>
+<th>since</th>
+<td>1.6</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$type</h4>
+<code>\type</code><p>The table type to instantiate</p></div>
+<div class="subelement argument">
+<h4>$prefix</h4>
+<code>string</code><p>A prefix for the table class name. Optional.</p></div>
+<div class="subelement argument">
+<h4>$config</h4>
+<code>array</code><p>Configuration array for model. Optional.</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>\JTable</code>A database object</div>
+</div></div>
+</div>
+<a name="insAlunos" id="insAlunos"></a><div class="element clickable method public insAlunos" data-toggle="collapse" data-target=".insAlunos .collapse">
+<h2>Insert student list in a course</h2>
+<pre>insAlunos(\lista_de_items $lista_de_items, \$curso_id $curso_id) : true</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$lista_de_items</h4>
+<code>\lista_de_items</code><p>Array with the class data to be inserted</p></div>
+<div class="subelement argument">
+<h4>$curso_id</h4>
+<code>\$curso_id</code><p>The course ID</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>true</code>on success</div>
+</div></div>
+</div>
+<a name="registado" id="registado"></a><div class="element clickable method public registado" data-toggle="collapse" data-target=".registado .collapse">
+<h2>Checks if a student is registered in the application. If there is no Joomla ID associated with a personal ID, returns false.</h2>
+<pre>registado(\id $id) : boolean</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$id</h4>
+<code>\id</code><p>Joomla user ID (opcional)</p>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>boolean</code></div>
+</div></div>
+</div>
+<a name="setAluno" id="setAluno"></a><div class="element clickable method public setAluno" data-toggle="collapse" data-target=".setAluno .collapse">
+<h2>Insert student data</h2>
+<pre>setAluno(\id $id, \bi $bi, \nome $nome, \num $cursos_id) : true</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$id</h4>
+<code>\id</code><p>Joomla ID</p></div>
+<div class="subelement argument">
+<h4>$bi</h4>
+<code>\bi</code><p>personal ID</p></div>
+<div class="subelement argument">
+<h4>$nome</h4>
+<code>\nome</code><p>student name</p></div>
+<div class="subelement argument">
+<h4>$cursos_id</h4>
+<code>\num</code><p>student nbr</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>true</code>on success</div>
+</div></div>
+</div>
+<a name="setAlunoID" id="setAlunoID"></a><div class="element clickable method public setAlunoID" data-toggle="collapse" data-target=".setAlunoID .collapse">
+<h2>Associates a Joomal ID to a personal ID</h2>
+<pre>setAlunoID(\bi $bi, $id) : true</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$bi</h4>
+<code>\bi</code><p>personal student ID</p></div>
+<div class="subelement argument">
+<h4>$id</h4>
+<code></code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>true</code>if successfull</div>
+</div></div>
+</div>
+<a name="setAutorizacao" id="setAutorizacao"></a><div class="element clickable method public setAutorizacao" data-toggle="collapse" data-target=".setAutorizacao .collapse">
+<h2>set the exam authorization for a student</h2>
+<pre>setAutorizacao(\alunos_bi $alunos_bi, \value $value) : true</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$alunos_bi</h4>
+<code>\alunos_bi</code><p>the student ID</p></div>
+<div class="subelement argument">
+<h4>$value</h4>
+<code>\value</code><p>boolean, the value to set</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>true</code>on success</div>
+</div></div>
+</div>
+<a name="unSetAlunoID" id="unSetAlunoID"></a><div class="element clickable method public unSetAlunoID" data-toggle="collapse" data-target=".unSetAlunoID .collapse">
+<h2>Deletes the association between a Joomla ID and a personal ID</h2>
+<pre>unSetAlunoID(\bi $bi) : true</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$bi</h4>
+<code>\bi</code><p>personal student ID</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>true</code>if successfull</div>
+</div></div>
+</div>
+<a name="updateAlunos" id="updateAlunos"></a><div class="element clickable method public updateAlunos" data-toggle="collapse" data-target=".updateAlunos .collapse">
+<h2>update several student data</h2>
+<pre>updateAlunos(\lista $lista) : true</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$lista</h4>
+<code>\lista</code><p>array with student data</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>true</code>on success</div>
+</div></div>
+</div>
+<a name="delAluno" id="delAluno"></a><div class="element clickable method private delAluno" data-toggle="collapse" data-target=".delAluno .collapse">
+<h2>Deletes a student</h2>
+<pre>delAluno(\id $id, \row $row) : true</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$id</h4>
+<code>\id</code><p>student id</p></div>
+<div class="subelement argument">
+<h4>$row</h4>
+<code>\row</code><p>table object</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>true</code>on success</div>
+</div></div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a3</a> and<br>
+            generated on 2012-05-24T18:41:09+02:00.<br></footer></div>
+</div>
+</body>
+</html>

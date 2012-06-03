@@ -1,0 +1,348 @@
+<!DOCTYPE html><html xmlns:date="http://exslt.org/dates-and-times" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>com_inscricaoexames » \inscricaoexamesController</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">com_inscricaoexames</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/inscricaoexames.html"><i class="icon-folder-open"></i> inscricaoexames</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">97</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods</li>
+<li class="method public "><a href="#actualizar_cursos" title="actualizar_cursos :: updates data in several courses"><span class="description">updates data in several courses</span><pre>actualizar_cursos()</pre></a></li>
+<li class="method public "><a href="#criar_alunos" title="criar_alunos :: Inserts in DB the ID of students who are allowed to register in the application"><span class="description">Inserts in DB the ID of students who are allowed to register in the application</span><pre>criar_alunos()</pre></a></li>
+<li class="method public "><a href="#criar_cursos" title="criar_cursos :: Creates courses"><span class="description">Creates courses</span><pre>criar_cursos()</pre></a></li>
+<li class="method public "><a href="#criar_disciplinas" title="criar_disciplinas :: create subjects"><span class="description">create subjects</span><pre>criar_disciplinas()</pre></a></li>
+<li class="method public "><a href="#criar_modulos" title="criar_modulos :: Create themes"><span class="description">Create themes</span><pre>criar_modulos()</pre></a></li>
+<li class="method public "><a href="#editar_alunos" title="editar_alunos :: edit students"><span class="description">edit students</span><pre>editar_alunos()</pre></a></li>
+<li class="method public "><a href="#editar_disc_cursos" title="editar_disc_cursos :: Save subjects in a course"><span class="description">Save subjects in a course</span><pre>editar_disc_cursos()</pre></a></li>
+<li class="method public "><a href="#editar_modulos" title="editar_modulos :: edit themes"><span class="description">edit themes</span><pre>editar_modulos()</pre></a></li>
+<li class="method public "><a href="#eliminar_cursos" title="eliminar_cursos :: deletes courses"><span class="description">deletes courses</span><pre>eliminar_cursos()</pre></a></li>
+<li class="method public "><a href="#eliminar_disciplinas" title="eliminar_disciplinas :: delete subjects"><span class="description">delete subjects</span><pre>eliminar_disciplinas()</pre></a></li>
+<li class="method public "><a href="#eliminar_inscricoes" title="eliminar_inscricoes :: deletes exam enrollment"><span class="description">deletes exam enrollment</span><pre>eliminar_inscricoes()</pre></a></li>
+<li class="method public "><a href="#fazer_inscricao" title="fazer_inscricao :: enroll a student in exams"><span class="description">enroll a student in exams</span><pre>fazer_inscricao()</pre></a></li>
+<li class="method public "><a href="#guardar_aluno" title="guardar_aluno :: save student data"><span class="description">save student data</span><pre>guardar_aluno()</pre></a></li>
+<li class="method public "><a href="#registar_aluno" title="registar_aluno :: Registers a student in the application using hes ID, the joomla user_id, and other data as student nbr or course
+If the student is already registered, hes data is removed and registry is remade"><span class="description">Registers a student in the application using hes ID, the joomla user_id, and other data as student nbr or course
+If the student is already registered, hes data is removed and registry is remade</span><pre>registar_aluno()</pre></a></li>
+</ul>
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods</li>
+<li class="method public "><a href="#display" title="display :: Method to display the view"><span class="description">Method to display the view</span><pre>display()</pre></a></li>
+</ul>
+</div>
+<div class="span8">
+<a name="%5CinscricaoexamesController" id="\inscricaoexamesController"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/default.html">default</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/inscricaoexamesController.html">inscricaoexamesController</a>
+</li>
+</ul>
+<div href="../classes/inscricaoexamesController.html" class="element class">
+<p class="short_description">Component Controller</p>
+<div class="details">
+<p class="long_description"></p>
+<table class="table table-bordered">
+<tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr>
+<tr>
+<th>package</th>
+<td><a href="../packages/inscricaoexames.html">inscricaoexames</a></td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a name="actualizar_cursos" id="actualizar_cursos"></a><div class="element clickable method public actualizar_cursos" data-toggle="collapse" data-target=".actualizar_cursos .collapse">
+<h2>updates data in several courses</h2>
+<pre>actualizar_cursos() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+</div></div>
+</div>
+<a name="criar_alunos" id="criar_alunos"></a><div class="element clickable method public criar_alunos" data-toggle="collapse" data-target=".criar_alunos .collapse">
+<h2>Inserts in DB the ID of students who are allowed to register in the application</h2>
+<pre>criar_alunos() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+</div></div>
+</div>
+<a name="criar_cursos" id="criar_cursos"></a><div class="element clickable method public criar_cursos" data-toggle="collapse" data-target=".criar_cursos .collapse">
+<h2>Creates courses</h2>
+<pre>criar_cursos() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+</div></div>
+</div>
+<a name="criar_disciplinas" id="criar_disciplinas"></a><div class="element clickable method public criar_disciplinas" data-toggle="collapse" data-target=".criar_disciplinas .collapse">
+<h2>create subjects</h2>
+<pre>criar_disciplinas() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+</div></div>
+</div>
+<a name="criar_modulos" id="criar_modulos"></a><div class="element clickable method public criar_modulos" data-toggle="collapse" data-target=".criar_modulos .collapse">
+<h2>Create themes</h2>
+<pre>criar_modulos() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+</div></div>
+</div>
+<a name="editar_alunos" id="editar_alunos"></a><div class="element clickable method public editar_alunos" data-toggle="collapse" data-target=".editar_alunos .collapse">
+<h2>edit students</h2>
+<pre>editar_alunos($cid) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$cid</h4>
+<code></code>
+</div>
+</div></div>
+</div>
+<a name="editar_disc_cursos" id="editar_disc_cursos"></a><div class="element clickable method public editar_disc_cursos" data-toggle="collapse" data-target=".editar_disc_cursos .collapse">
+<h2>Save subjects in a course</h2>
+<pre>editar_disc_cursos($disciplinas) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$disciplinas</h4>
+<code></code>
+</div>
+</div></div>
+</div>
+<a name="editar_modulos" id="editar_modulos"></a><div class="element clickable method public editar_modulos" data-toggle="collapse" data-target=".editar_modulos .collapse">
+<h2>edit themes</h2>
+<pre>editar_modulos($cid) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$cid</h4>
+<code></code>
+</div>
+</div></div>
+</div>
+<a name="eliminar_cursos" id="eliminar_cursos"></a><div class="element clickable method public eliminar_cursos" data-toggle="collapse" data-target=".eliminar_cursos .collapse">
+<h2>deletes courses</h2>
+<pre>eliminar_cursos($cid) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$cid</h4>
+<code></code>
+</div>
+</div></div>
+</div>
+<a name="eliminar_disciplinas" id="eliminar_disciplinas"></a><div class="element clickable method public eliminar_disciplinas" data-toggle="collapse" data-target=".eliminar_disciplinas .collapse">
+<h2>delete subjects</h2>
+<pre>eliminar_disciplinas($cid) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$cid</h4>
+<code></code>
+</div>
+</div></div>
+</div>
+<a name="eliminar_inscricoes" id="eliminar_inscricoes"></a><div class="element clickable method public eliminar_inscricoes" data-toggle="collapse" data-target=".eliminar_inscricoes .collapse">
+<h2>deletes exam enrollment</h2>
+<pre>eliminar_inscricoes() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+</div></div>
+</div>
+<a name="fazer_inscricao" id="fazer_inscricao"></a><div class="element clickable method public fazer_inscricao" data-toggle="collapse" data-target=".fazer_inscricao .collapse">
+<h2>enroll a student in exams</h2>
+<pre>fazer_inscricao() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+</div></div>
+</div>
+<a name="guardar_aluno" id="guardar_aluno"></a><div class="element clickable method public guardar_aluno" data-toggle="collapse" data-target=".guardar_aluno .collapse">
+<h2>save student data</h2>
+<pre>guardar_aluno() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+</div></div>
+</div>
+<a name="registar_aluno" id="registar_aluno"></a><div class="element clickable method public registar_aluno" data-toggle="collapse" data-target=".registar_aluno .collapse">
+<h2>Registers a student in the application using hes ID, the joomla user_id, and other data as student nbr or course
+If the student is already registered, hes data is removed and registry is remade</h2>
+<pre>registar_aluno() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>author</th>
+<td><a href="">Herberto Graça</a></td>
+</tr></table>
+</div></div>
+</div>
+</div>
+</div>
+<a name="%5CinscricaoexamesController" id="\inscricaoexamesController"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/default.html">default</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/inscricaoexamesController.html">inscricaoexamesController</a>
+</li>
+</ul>
+<div href="../classes/inscricaoexamesController.html" class="element class">
+<p class="short_description">Component Admin Controller</p>
+<div class="details">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>package</th>
+<td><a href="../packages/inscricaoexames.html">inscricaoexames</a></td>
+</tr></table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a name="display" id="display"></a><div class="element clickable method public display" data-toggle="collapse" data-target=".display .collapse">
+<h2>Method to display the view</h2>
+<pre>display() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a3</a> and<br>
+            generated on 2012-05-24T18:41:09+02:00.<br></footer></div>
+</div>
+</body>
+</html>

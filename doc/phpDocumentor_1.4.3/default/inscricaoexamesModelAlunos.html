@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class inscricaoexamesModelAlunos</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name"><img src="../media/images/Class_logo.png"
+														alt=" Class"
+														title=" Class"
+														style="vertical-align: middle"> inscricaoexamesModelAlunos</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_site---models---alunos.php.html">/site/models/alunos.php</a> (line <span class="field">8</span>)
+		</p>
+		
+				
+		<pre>JModelItem
+   |
+   --inscricaoexamesModelAlunos</pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																								<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">true</span>
+										<a href="#delAlunos" title="details" class="method-name">delAlunos</a>
+											(<span class="var-type">id_list</span>&nbsp;<span class="var-name">$id_list</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">boolean</span>
+										<a href="#existe" title="details" class="method-name">existe</a>
+											([<span class="var-type">id</span>&nbsp;<span class="var-name">$id</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">Object</span>
+										<a href="#getAluno" title="details" class="method-name">getAluno</a>
+											(<span class="var-type">id</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">array</span>
+										<a href="#getAlunos" title="details" class="method-name">getAlunos</a>
+											(<span class="var-type">turmas_id</span>&nbsp;<span class="var-name">$turmas_id</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">JTable</span>
+										<a href="#getTable" title="details" class="method-name">getTable</a>
+											([<span class="var-type">type</span>&nbsp;<span class="var-name">$type</span> = <span class="var-default">'alunos'</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$prefix</span> = <span class="var-default">'inscricaoexamesTable'</span>], [<span class="var-type">array</span>&nbsp;<span class="var-name">$config</span> = <span class="var-default">array()</span>])
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">true</span>
+										<a href="#insAluno" title="details" class="method-name">insAluno</a>
+											(<span class="var-type">id</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">num</span>&nbsp;<span class="var-name">$num</span>, <span class="var-type">turmas_id</span>&nbsp;<span class="var-name">$turmas_id</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">true</span>
+										<a href="#updateAlunos" title="details" class="method-name">updateAlunos</a>
+											(<span class="var-type">lista_de_alunos</span>&nbsp;<span class="var-name">$lista</span>)
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+													<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methoddelAlunos" id="delAlunos"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">delAlunos</span> (line <span class="line-number">184</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Elimina uma lista de alunos</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> se OK</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">true</span>
+		<span class="method-name">
+			delAlunos
+		</span>
+					(<span class="var-type">id_list</span>&nbsp;<span class="var-name">$id_list</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">id_list</span>
+				<span class="var-name">$id_list</span><span class="var-description">: Um array com o ID das alunos a eliminar</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodexiste" id="existe"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">existe</span> (line <span class="line-number">30</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Verifica se um aluno existe, na aplicação</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			existe
+		</span>
+					([<span class="var-type">id</span>&nbsp;<span class="var-name">$id</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">id</span>
+				<span class="var-name">$id</span><span class="var-description">: ID do utilizador Joomla! (opcional)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetAluno" id="getAluno"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getAluno</span> (line <span class="line-number">264</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Devolve os dados de um aluno (tabela alunos, turmas e cursos)</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> [id, nome, numero, turmas_id, ano, turma, cursos_id, curso]</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Object</span>
+		<span class="method-name">
+			getAluno
+		</span>
+					(<span class="var-type">id</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">id</span>
+				<span class="var-name">$id</span><span class="var-description">: O id do aluno</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetAlunos" id="getAlunos"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getAlunos</span> (line <span class="line-number">154</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the list of alunos in a course</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> the list of modules</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getAlunos
+		</span>
+					(<span class="var-type">turmas_id</span>&nbsp;<span class="var-name">$turmas_id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">turmas_id</span>
+				<span class="var-name">$turmas_id</span><span class="var-description">: The course id</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetTable" id="getTable"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getTable</span> (line <span class="line-number">19</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns a reference to the a Table object, always creating it.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> A database object</li>
+				<li><span class="field">since:</span> 1.6</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">JTable</span>
+		<span class="method-name">
+			getTable
+		</span>
+					([<span class="var-type">type</span>&nbsp;<span class="var-name">$type</span> = <span class="var-default">'alunos'</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$prefix</span> = <span class="var-default">'inscricaoexamesTable'</span>], [<span class="var-type">array</span>&nbsp;<span class="var-name">$config</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">type</span>
+				<span class="var-name">$type</span><span class="var-description">: The table type to instantiate</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$prefix</span><span class="var-description">: A prefix for the table class name. Optional.</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$config</span><span class="var-description">: Configuration array for model. Optional.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinsAluno" id="insAluno"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">insAluno</span> (line <span class="line-number">49</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Insere os dados de um aluno, na aplicação</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">true</span>
+		<span class="method-name">
+			insAluno
+		</span>
+					(<span class="var-type">id</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">num</span>&nbsp;<span class="var-name">$num</span>, <span class="var-type">turmas_id</span>&nbsp;<span class="var-name">$turmas_id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">id</span>
+				<span class="var-name">$id</span><span class="var-description">: ID do utilizador Joomla!</span>			</li>
+					<li>
+				<span class="var-type">num</span>
+				<span class="var-name">$num</span><span class="var-description">: Numero de aluno</span>			</li>
+					<li>
+				<span class="var-type">turmas_id</span>
+				<span class="var-name">$turmas_id</span><span class="var-description">: ID da turma</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodupdateAlunos" id="updateAlunos"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">updateAlunos</span> (line <span class="line-number">239</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Altera os dados de várias alunos</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">true</span>
+		<span class="method-name">
+			updateAlunos
+		</span>
+					(<span class="var-type">lista_de_alunos</span>&nbsp;<span class="var-name">$lista</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">lista_de_alunos</span>
+				<span class="var-name">$lista</span><span class="var-description">: Os dados das alunos</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+	
+	<p class="notes" id="credit">
+		Documentation generated on Mon, 20 Jun 2011 17:35:40 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

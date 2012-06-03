@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.7" method="upgrade">
+
+	<name>COM_INSCRICAOEXAMES</name>
+	<creationDate>June 2011</creationDate>
+	<author>Herberto Graça</author>
+	<authorEmail>herberto.graca@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Creative Commons (CC) 2011 Herberto Graça.</copyright>
+	<license>http://creativecommons.org/licenses/by-nc-sa/3.0/</license>
+	<version>1.0.0</version>
+	<description>COM_DESCRIPTION</description>
+
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>
+
+
+	<files folder="site">
+		<folder>controllers</folder>
+		<folder>css</folder>
+		<folder>helpers</folder>
+		<folder>imgs</folder>
+		<folder>js</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>inscricaoexames.php</filename>
+	</files>	
+	
+	<languages folder="site">
+		<language tag="pt-PT">language/pt-PT/pt-PT.com_inscricaoexames.ini</language>
+	</languages>
+
+	<media destination="com_inscricaoexames" folder="media">
+		<filename>index.html</filename>
+		<folder>images</folder>
+	</media>
+	
+		
+	<administration>
+		<menu img="../media/com_inscricaoexames/images/icon-16x16.png" act="setOpcoes">COM_INSCRICAOEXAMES</menu>
+		
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>language</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>admin.inscricaoexames.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+		</files>		
+	
+	    	<languages folder="admin">
+	        	<language tag="pt-PT">language/pt-PT/pt-PT.com_inscricaoexames.ini</language>
+	        	<language tag="pt-PT">language/pt-PT/pt-PT.com_inscricaoexames.sys.ini</language>
+	    	</languages>
+	</administration>
+</extension>
+

@@ -1,0 +1,2426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a3" title="com_inscricaoexames">
+  <file path="site/views/adminmenu/view.html.php" hash="6a1db94caec0caff875d15cc9173719c" package="Default">
+    <parse_markers>
+      <error line="16" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/adminmenu/view.html.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="14" package="Default">
+      <name>InscricaoexamesViewAdminmenu</name>
+      <full_name>\InscricaoexamesViewAdminmenu</full_name>
+      <extends>\JView</extends>
+      <docblock line="8">
+        <description><![CDATA[Classe used to show a view]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="8" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="16" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="16">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/adminmenu/tmpl/default.php" hash="a5ce8a140fd2b689986f5106f2820640" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/adminmenu/tmpl/default.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/inscricaoexames/view.raw.php" hash="7ca9aa2963a6ae1388c8804a5cdf2600" package="Default">
+    <parse_markers>
+      <error line="17" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/inscricaoexames/view.raw.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="15" package="Default">
+      <name>inscricaoexamesViewinscricaoexames</name>
+      <full_name>\inscricaoexamesViewinscricaoexames</full_name>
+      <extends>\JView</extends>
+      <docblock line="9">
+        <description><![CDATA[Classe used to deal with this view AJAX requests]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="9" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="17" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="17">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/inscricaoexames/view.html.php" hash="3d3b8725162f6a2201aa5330c4eb0a3c" package="Default">
+    <parse_markers>
+      <error line="16" code="50010">No DocBlock was found for method display()</error>
+      <error line="143" code="50015">Argument $disciplinas_id is missing from the Docblock of tabelaDeModulos()</error>
+      <error line="143" code="50015">Argument $alunos_bi is missing from the Docblock of tabelaDeModulos()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/inscricaoexames/view.html.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="14" package="Default">
+      <name>inscricaoexamesViewinscricaoexames</name>
+      <full_name>\inscricaoexamesViewinscricaoexames</full_name>
+      <extends>\JView</extends>
+      <docblock line="8">
+        <description><![CDATA[Classe used to show a view]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="8" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="16" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="16">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="149" package="">
+        <name>tabelaDeModulos</name>
+        <type>function</type>
+        <docblock line="143">
+          <description><![CDATA[Cria uma tabela HTML com os módulos de uma determinada disciplina, e uma checkbox para cada módulo. É utilizada no formulário "fazerinscricao2.php", para um aluno se inscrever em exames.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="143" name="author" description="Herberto Graça"/>
+          <tag line="143" name="return" description="Uma tabela HTML com os módulos de uma determinada disciplina" type="String">
+            <type by_reference="false">String</type>
+          </tag>
+        </docblock>
+        <argument line="149">
+          <name>$disciplinas_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="149">
+          <name>$alunos_bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/inscricaoexames/tmpl/escolheralunos.php" hash="20bf3fb877d3344bb3896cc115c7861c" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/inscricaoexames/tmpl/escolheralunos.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/inscricaoexames/tmpl/eliminarinscricoes.php" hash="19d3cf0bc6697aa0a8f85b9bf4a94383" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/inscricaoexames/tmpl/eliminarinscricoes.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/inscricaoexames/tmpl/verinscricaoaluno.php" hash="f9f8ef95e31c2349b80be3ac458aeda4" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/inscricaoexames/tmpl/verinscricaoaluno.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/inscricaoexames/tmpl/fazerinscricao.php" hash="464fcf84673cd701c0b3d3c782c6f586" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/inscricaoexames/tmpl/fazerinscricao.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/inscricaoexames/tmpl/default.php" hash="25424d0a842cdcff9d07532689755fcc" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/inscricaoexames/tmpl/default.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/inscricaoexames/tmpl/fazerinscricao2.php" hash="aa6fbcb542b116b37b0bfb518e5895a8" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/inscricaoexames/tmpl/fazerinscricao2.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/cursos/view.raw.php" hash="3d980e657344e61b50af562feb7139ff" package="Default">
+    <parse_markers>
+      <error line="17" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/cursos/view.raw.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="15" package="Default">
+      <name>inscricaoexamesViewcursos</name>
+      <full_name>\inscricaoexamesViewcursos</full_name>
+      <extends>\JView</extends>
+      <docblock line="9">
+        <description><![CDATA[Classe used to deal with this view AJAX requests]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="9" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="17" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="17">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/cursos/view.html.php" hash="5d08994c2571f1547b97897651d411c7" package="Default">
+    <parse_markers>
+      <error line="16" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/cursos/view.html.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="14" package="Default">
+      <name>inscricaoexamesViewcursos</name>
+      <full_name>\inscricaoexamesViewcursos</full_name>
+      <extends>\JView</extends>
+      <docblock line="8">
+        <description><![CDATA[Classe used to show a view]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="8" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="16" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="16">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/cursos/tmpl/editarcursos.php" hash="601f0aa547dbc3b17c511d65bef82948" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/cursos/tmpl/editarcursos.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/cursos/tmpl/inserircursos.php" hash="6f647c3964dbab0119db5bbf56a26d94" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/cursos/tmpl/inserircursos.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/cursos/tmpl/editardisccursos.php" hash="46a2aa738fb955adedb8a9b1348bbb04" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/cursos/tmpl/editardisccursos.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/modulos/view.raw.php" hash="91cd0f405c874c62c86fbaca819397ec" package="Default">
+    <parse_markers>
+      <error line="17" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/modulos/view.raw.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="15" package="Default">
+      <name>inscricaoexamesViewmodulos</name>
+      <full_name>\inscricaoexamesViewmodulos</full_name>
+      <extends>\JView</extends>
+      <docblock line="9">
+        <description><![CDATA[Classe used to deal with this view AJAX requests]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="9" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="17" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="17">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/modulos/view.html.php" hash="f17bd7b2ead0d068dbe9f1d84cfb1262" package="Default">
+    <parse_markers>
+      <error line="16" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/modulos/view.html.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="14" package="Default">
+      <name>inscricaoexamesViewmodulos</name>
+      <full_name>\inscricaoexamesViewmodulos</full_name>
+      <extends>\JView</extends>
+      <docblock line="8">
+        <description><![CDATA[Classe used to show a view]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="8" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="16" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="16">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/modulos/tmpl/inserirmodulos.php" hash="9ce923cd9c945d2cff72445d8c0124a3" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/modulos/tmpl/inserirmodulos.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/modulos/tmpl/editarmodulos.php" hash="1fe1e1d5718f0105c6f8ed649ba8d095" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/modulos/tmpl/editarmodulos.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/disciplinas/view.html.php" hash="9b06650bb1546a0ab1d669e77b1c536e" package="Default">
+    <parse_markers>
+      <error line="16" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/disciplinas/view.html.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="14" package="Default">
+      <name>inscricaoexamesViewdisciplinas</name>
+      <full_name>\inscricaoexamesViewdisciplinas</full_name>
+      <extends>\JView</extends>
+      <docblock line="8">
+        <description><![CDATA[Classe used to show a view]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="8" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="16" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="16">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/disciplinas/tmpl/verdisciplinas.php" hash="8d9a2d408b2d40d07bb2d45ddc86e7bf" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/disciplinas/tmpl/verdisciplinas.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/disciplinas/tmpl/inserirdisciplinas.php" hash="75599657154267ceff0c9ccb4d3bc0e1" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/disciplinas/tmpl/inserirdisciplinas.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/opcoes/view.html.php" hash="f065b4adf6db6c4f0b6f7b0f9b51540a" package="Default">
+    <parse_markers>
+      <error line="16" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/opcoes/view.html.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="14" package="Default">
+      <name>InscricaoexamesViewOpcoes</name>
+      <full_name>\InscricaoexamesViewOpcoes</full_name>
+      <extends>\JView</extends>
+      <docblock line="8">
+        <description><![CDATA[Classe used to show a view]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="8" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="16" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="16">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/opcoes/tmpl/default.php" hash="a99a952f3b39b49588caa661a15b2155" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/opcoes/tmpl/default.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/alunos/view.raw.php" hash="707a14e3e954875bf8879180e1123bf7" package="Default">
+    <parse_markers>
+      <error line="17" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/alunos/view.raw.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="15" package="Default">
+      <name>inscricaoexamesViewalunos</name>
+      <full_name>\inscricaoexamesViewalunos</full_name>
+      <extends>\JView</extends>
+      <docblock line="9">
+        <description><![CDATA[Classe used to deal with this view AJAX requests]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="9" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="17" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="17">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/alunos/view.html.php" hash="62a68dda16d1d4967d72b4f9df04d2d7" package="Default">
+    <parse_markers>
+      <error line="16" code="50010">No DocBlock was found for method display()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/alunos/view.html.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="14" package="Default">
+      <name>inscricaoexamesViewalunos</name>
+      <full_name>\inscricaoexamesViewalunos</full_name>
+      <extends>\JView</extends>
+      <docblock line="8">
+        <description><![CDATA[Classe used to show a view]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="8" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="16" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="16">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/views/alunos/tmpl/inseriralunos.php" hash="e0ed99033a7ce594d43a18376f227307" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/alunos/tmpl/inseriralunos.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/alunos/tmpl/registaraluno.php" hash="82047913c00dd990d7f8adf743f445a0" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/alunos/tmpl/registaraluno.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/views/alunos/tmpl/editaralunos.php" hash="8035739082947389c4b214d6a2352dd2" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/views/alunos/tmpl/editaralunos.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/models/cursos.php" hash="210338cb0e9cfdee3261f7b0a845aacd" package="Default">
+    <parse_markers>
+      <notice line="10" code="50017">The type for the @param tag in getTable() is "type"; isn't this an IDE default?</notice>
+      <error line="44" code="50015">Argument $sigla is missing from the Docblock of insCurso()</error>
+      <error line="110" code="50015">Argument $row is missing from the Docblock of delCurso()</error>
+      <error line="8" code="50000">No DocBlock was found for inscricaoexamesModelcursos</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/models/cursos.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="8" package="Default">
+      <name>inscricaoexamesModelcursos</name>
+      <full_name>\inscricaoexamesModelcursos</full_name>
+      <extends>\JModelItem</extends>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="20" package="">
+        <name>getTable</name>
+        <type>function</type>
+        <docblock line="10">
+          <description><![CDATA[Returns a reference to the a Table object, always creating it.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="10" name="author" description="Herberto Graça"/>
+          <tag line="10" name="param" description="The table type to instantiate" type="\type" variable="$type">
+            <type by_reference="false">\type</type>
+          </tag>
+          <tag line="10" name="param" description="A prefix for the table class name. Optional." type="string" variable="$prefix">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="10" name="param" description="Configuration array for model. Optional." type="array" variable="$config">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="10" name="return" description="A database object" type="\JTable">
+            <type by_reference="false">\JTable</type>
+          </tag>
+          <tag line="10" name="since" description="1.6"/>
+        </docblock>
+        <argument line="20">
+          <name>$type</name>
+          <default><![CDATA['cursos']]></default>
+          <type/>
+        </argument>
+        <argument line="20">
+          <name>$prefix</name>
+          <default><![CDATA['inscricaoexamesTable']]></default>
+          <type/>
+        </argument>
+        <argument line="20">
+          <name>$config</name>
+          <default><![CDATA[array()]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="31" package="">
+        <name>countCursos</name>
+        <type>function</type>
+        <docblock line="25">
+          <description><![CDATA[Counts the number of courses]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="25" name="author" description="Herberto Graça"/>
+          <tag line="25" name="return" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="52" package="">
+        <name>insCurso</name>
+        <type>function</type>
+        <docblock line="44">
+          <description><![CDATA[Inserts a course data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="44" name="author" description="Herberto Graça"/>
+          <tag line="44" name="param" description="The course name to be inserted" type="\curso" variable="$id">
+            <type by_reference="false">\curso</type>
+          </tag>
+          <tag line="44" name="param" description="JTable representing the table where insertion is to be made" type="\table" variable="$designacao">
+            <type by_reference="false">\table</type>
+          </tag>
+          <tag line="44" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="52">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="52">
+          <name>$designacao</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="52">
+          <name>$sigla</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="82" package="">
+        <name>insCursos</name>
+        <type>function</type>
+        <docblock line="75">
+          <description><![CDATA[Inserts data of a list of courses into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="75" name="author" description="Herberto Graça"/>
+          <tag line="75" name="param" description="associative array" type="\lista_de_cursos" variable="$lista_de_cursos">
+            <type by_reference="false">\lista_de_cursos</type>
+          </tag>
+          <tag line="75" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="82">
+          <name>$lista_de_cursos</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="105" package="">
+        <name>getCursos</name>
+        <type>function</type>
+        <docblock line="99">
+          <description><![CDATA[Gets the list of courses data from the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="99" name="author" description="Herberto Graça"/>
+          <tag line="99" name="return" description="the list of courses data" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="117" package="">
+        <name>delCurso</name>
+        <type>function</type>
+        <docblock line="110">
+          <description><![CDATA[Deletes the course from the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="110" name="param" description="The course id" type="\id" variable="$id">
+            <type by_reference="false">\id</type>
+          </tag>
+          <tag line="110" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="117">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="117">
+          <name>$row</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="135" package="">
+        <name>delCursos</name>
+        <type>function</type>
+        <docblock line="127">
+          <description><![CDATA[Deletes the list of courses data from the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="127" name="author" description="Herberto Graça"/>
+          <tag line="127" name="param" description="An array with the courses id" type="\id_list" variable="$id_list">
+            <type by_reference="false">\id_list</type>
+          </tag>
+          <tag line="127" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="135">
+          <name>$id_list</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="160" package="">
+        <name>getCursoDisciplinas</name>
+        <type>function</type>
+        <docblock line="153">
+          <description><![CDATA[Gets a list of course/disciplinas data]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="153" name="author" description="Herberto Graça"/>
+          <tag line="153" name="param" description="The course id" type="\curso" variable="$curso">
+            <type by_reference="false">\curso</type>
+          </tag>
+          <tag line="153" name="return" description="comas disciplinas do curso" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="160">
+          <name>$curso</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/models/inscricaoexames.php" hash="0b26f2bbbfb6781d80bc0a188cecfbf2" package="Default">
+    <parse_markers>
+      <error line="8" code="50000">No DocBlock was found for inscricaoexamesModelinscricaoexames</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/models/inscricaoexames.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="8" package="Default">
+      <name>inscricaoexamesModelinscricaoexames</name>
+      <full_name>\inscricaoexamesModelinscricaoexames</full_name>
+      <extends>\JModelItem</extends>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="18" package="">
+        <name>countInscricoes</name>
+        <type>function</type>
+        <docblock line="10">
+          <description><![CDATA[Counts the nbr of themes a student is enrolled in]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="10" name="author" description="Herberto Graça"/>
+          <tag line="10" name="param" description="the student ID" type="\$alunos_bi" variable="$alunos_bi">
+            <type by_reference="false">\$alunos_bi</type>
+          </tag>
+          <tag line="10" name="param" description="the subject ID" type="\$disciplina_id" variable="$disciplina_id">
+            <type by_reference="false">\$disciplina_id</type>
+          </tag>
+          <tag line="10" name="return" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+        <argument line="18">
+          <name>$alunos_bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="18">
+          <name>$disciplina_id</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="44" package="">
+        <name>resetInscricoes</name>
+        <type>function</type>
+        <docblock line="37">
+          <description><![CDATA[Deletes all enrollments in the application, or all the enrollments of a givem student]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="37" name="author" description="Herberto Graça"/>
+          <tag line="37" name="param" description="if given, deletes all enrollments of the givem student" type="\$alunos_id" variable="$alunos_bi">
+            <type by_reference="false">\$alunos_id</type>
+          </tag>
+          <tag line="37" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="44">
+          <name>$alunos_bi</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="75" package="">
+        <name>resetInscricao</name>
+        <type>function</type>
+        <docblock line="66">
+          <description><![CDATA[Deletes student enrollment in a given theme]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="66" name="author" description="Herberto Graça"/>
+          <tag line="66" name="param" description="student ID" type="\alunos_bi" variable="$alunos_bi">
+            <type by_reference="false">\alunos_bi</type>
+          </tag>
+          <tag line="66" name="param" description="theme ID" type="\modulos_id" variable="$modulos_id">
+            <type by_reference="false">\modulos_id</type>
+          </tag>
+          <tag line="66" name="param" description="database table object" type="\db" variable="$db">
+            <type by_reference="false">\db</type>
+          </tag>
+          <tag line="66" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="75">
+          <name>$alunos_bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="75">
+          <name>$modulos_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="75">
+          <name>$db</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="91" package="">
+        <name>setInscricao</name>
+        <type>function</type>
+        <docblock line="82">
+          <description><![CDATA[enrolls a student in a given theme]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="82" name="author" description="Herberto Graça"/>
+          <tag line="82" name="param" description="student ID" type="\alunos_bi" variable="$alunos_bi">
+            <type by_reference="false">\alunos_bi</type>
+          </tag>
+          <tag line="82" name="param" description="theme ID" type="\modulos_id" variable="$modulos_id">
+            <type by_reference="false">\modulos_id</type>
+          </tag>
+          <tag line="82" name="param" description="database table object" type="\db" variable="$db">
+            <type by_reference="false">\db</type>
+          </tag>
+          <tag line="82" name="return" description="on success, or error message" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="91">
+          <name>$alunos_bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="91">
+          <name>$modulos_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="91">
+          <name>$db</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="107" package="">
+        <name>getIDsModulosInscritos</name>
+        <type>function</type>
+        <docblock line="100">
+          <description><![CDATA[Returns an associative array with the themes IDs in which the student is enrolled]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="100" name="author" description="Herberto Graça"/>
+          <tag line="100" name="param" description="student ID" type="\alunos_bi" variable="$alunos_bi">
+            <type by_reference="false">\alunos_bi</type>
+          </tag>
+          <tag line="100" name="return" description="ou um resultArray" type="false">
+            <type by_reference="false">false</type>
+          </tag>
+        </docblock>
+        <argument line="107">
+          <name>$alunos_bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="125" package="">
+        <name>getModulosInscritos</name>
+        <type>function</type>
+        <docblock line="116">
+          <description><![CDATA[Returns the list of themes a student is enrolled in.]]></description>
+          <long-description><![CDATA[If autorizacao is given, it returns all students authorized enrrolments]]></long-description>
+          <tag line="116" name="author" description="Herberto Graça"/>
+          <tag line="116" name="param" description="boolean, if we want only the authorized enrollments" type="\autorizacao" variable="$autorizacao">
+            <type by_reference="false">\autorizacao</type>
+          </tag>
+          <tag line="116" name="param" description="student ID" type="\alunos_id" variable="$alunos_id">
+            <type by_reference="false">\alunos_id</type>
+          </tag>
+          <tag line="116" name="return" description="ou um resultArray" type="false">
+            <type by_reference="false">false</type>
+          </tag>
+        </docblock>
+        <argument line="125">
+          <name>$autorizacao</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+        <argument line="125">
+          <name>$alunos_id</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/models/cursosdisciplinas.php" hash="188cbaa49f8bbdd97881ee7b3836d776" package="Default">
+    <parse_markers>
+      <notice line="10" code="50013">Parameter  could not be found in delCurso()</notice>
+      <notice line="73" code="50013">Parameter  could not be found in getDisciplinas()</notice>
+      <error line="8" code="50000">No DocBlock was found for inscricaoexamesModelcursosdisciplinas</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/models/cursosdisciplinas.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="8" package="Default">
+      <name>inscricaoexamesModelcursosdisciplinas</name>
+      <full_name>\inscricaoexamesModelcursosdisciplinas</full_name>
+      <extends>\JModelItem</extends>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="18" package="">
+        <name>delCurso</name>
+        <type>function</type>
+        <docblock line="10">
+          <description><![CDATA[Inserts a course/disciplina data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="10" name="param" description="The course id to be inserted" type="\curso" variable="$curso">
+            <type by_reference="false">\curso</type>
+          </tag>
+          <tag line="10" name="param" description="The disciplina id to be inserted" type="\disciplinas" variable="$db">
+            <type by_reference="false">\disciplinas</type>
+          </tag>
+          <tag line="10" name="param" description="The database object" type="\db" variable="">
+            <type by_reference="false">\db</type>
+          </tag>
+          <tag line="10" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="18">
+          <name>$curso</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="18">
+          <name>$db</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="37" package="">
+        <name>insCursoDisciplina</name>
+        <type>function</type>
+        <docblock line="29">
+          <description><![CDATA[Inserts a course/disciplina data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="29" name="param" description="The course id to be inserted" type="\curso" variable="$curso">
+            <type by_reference="false">\curso</type>
+          </tag>
+          <tag line="29" name="param" description="The disciplina id to be inserted" type="\disciplinas" variable="$disciplina">
+            <type by_reference="false">\disciplinas</type>
+          </tag>
+          <tag line="29" name="param" description="The database object" type="\db" variable="$db">
+            <type by_reference="false">\db</type>
+          </tag>
+          <tag line="29" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="37">
+          <name>$curso</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="37">
+          <name>$disciplina</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="37">
+          <name>$db</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="54" package="">
+        <name>insCursoDisciplinas</name>
+        <type>function</type>
+        <docblock line="47">
+          <description><![CDATA[Inserts a list of course/disciplinas data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="47" name="param" description="The course id to be inserted" type="\curso" variable="$curso">
+            <type by_reference="false">\curso</type>
+          </tag>
+          <tag line="47" name="param" description="An array with the disciplinas id" type="\disciplinas" variable="$disciplinas">
+            <type by_reference="false">\disciplinas</type>
+          </tag>
+          <tag line="47" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="54">
+          <name>$curso</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="54">
+          <name>$disciplinas</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="80" package="">
+        <name>getDisciplinas</name>
+        <type>function</type>
+        <docblock line="73">
+          <description><![CDATA[Inserts a list of course/disciplinas data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="73" name="param" description="The course id to be inserted" type="\curso" variable="$curso">
+            <type by_reference="false">\curso</type>
+          </tag>
+          <tag line="73" name="param" description="An array with the disciplinas id" type="\disciplinas" variable="">
+            <type by_reference="false">\disciplinas</type>
+          </tag>
+          <tag line="73" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="80">
+          <name>$curso</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/models/modulos.php" hash="c618ff7673fc4e8509d5625e1a7c7c68" package="Default">
+    <parse_markers>
+      <notice line="10" code="50017">The type for the @param tag in getTable() is "type"; isn't this an IDE default?</notice>
+      <error line="37" code="50015">Argument $disciplinas_id is missing from the Docblock of insModulo()</error>
+      <error line="37" code="50015">Argument $row is missing from the Docblock of insModulo()</error>
+      <error line="66" code="50015">Argument $disciplinas_id is missing from the Docblock of insModulos()</error>
+      <error line="112" code="50015">Argument $disciplinas_id is missing from the Docblock of getModulos()</error>
+      <error line="122" code="50015">Argument $id is missing from the Docblock of getModulo()</error>
+      <error line="134" code="50015">Argument $row is missing from the Docblock of delModulo()</error>
+      <error line="8" code="50000">No DocBlock was found for inscricaoexamesModelModulos</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/models/modulos.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="8" package="Default">
+      <name>inscricaoexamesModelModulos</name>
+      <full_name>\inscricaoexamesModelModulos</full_name>
+      <extends>\JModelItem</extends>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="19" package="">
+        <name>getTable</name>
+        <type>function</type>
+        <docblock line="10">
+          <description><![CDATA[Returns a reference to the a Table object, always creating it.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="10" name="param" description="The table type to instantiate" type="\type" variable="$type">
+            <type by_reference="false">\type</type>
+          </tag>
+          <tag line="10" name="param" description="A prefix for the table class name. Optional." type="string" variable="$prefix">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="10" name="param" description="Configuration array for model. Optional." type="array" variable="$config">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="10" name="return" description="A database object" type="\JTable">
+            <type by_reference="false">\JTable</type>
+          </tag>
+          <tag line="10" name="since" description="1.6"/>
+        </docblock>
+        <argument line="19">
+          <name>$type</name>
+          <default><![CDATA['modulos']]></default>
+          <type/>
+        </argument>
+        <argument line="19">
+          <name>$prefix</name>
+          <default><![CDATA['inscricaoexamesTable']]></default>
+          <type/>
+        </argument>
+        <argument line="19">
+          <name>$config</name>
+          <default><![CDATA[array()]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="30" package="">
+        <name>getDiscID</name>
+        <type>function</type>
+        <docblock line="24">
+          <description><![CDATA[Returns the subject ID for which a theme belongs to]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="24" name="param" description="theme ID" type="\$modulos_id" variable="$modulos_id">
+            <type by_reference="false">\$modulos_id</type>
+          </tag>
+          <tag line="24" name="return" description="subject ID" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+        <argument line="30">
+          <name>$modulos_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="44" package="">
+        <name>insModulo</name>
+        <type>function</type>
+        <docblock line="37">
+          <description><![CDATA[Inserts a module data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="37" name="param" description="The module name to be inserted" type="\modulo" variable="$numero">
+            <type by_reference="false">\modulo</type>
+          </tag>
+          <tag line="37" name="param" description="JTable representing the table where insertion is to be made" type="\table" variable="$modulo">
+            <type by_reference="false">\table</type>
+          </tag>
+          <tag line="37" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="44">
+          <name>$numero</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="44">
+          <name>$modulo</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="44">
+          <name>$disciplinas_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="44">
+          <name>$row</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="72" package="">
+        <name>insModulos</name>
+        <type>function</type>
+        <docblock line="66">
+          <description><![CDATA[Inserts a list of modules data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="66" name="param" description="Array with the modules data to be inserted" type="\lista_de_modulos" variable="$lista_de_modulos">
+            <type by_reference="false">\lista_de_modulos</type>
+          </tag>
+          <tag line="66" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="72">
+          <name>$lista_de_modulos</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="72">
+          <name>$disciplinas_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="98" package="">
+        <name>getUltimoModulo</name>
+        <type>function</type>
+        <docblock line="92">
+          <description><![CDATA[Gets the number of the last inserted module, for the given discipline]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="92" name="param" description="Array with the modules data to be inserted" type="\disciplinas_id" variable="$disciplinas_id">
+            <type by_reference="false">\disciplinas_id</type>
+          </tag>
+          <tag line="92" name="return" description="number on success, false on error" type="\the">
+            <type by_reference="false">\the</type>
+          </tag>
+        </docblock>
+        <argument line="98">
+          <name>$disciplinas_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="117" package="">
+        <name>getModulos</name>
+        <type>function</type>
+        <docblock line="112">
+          <description><![CDATA[Gets the list of modules in a subject]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="112" name="return" description="the list of modules" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="117">
+          <name>$disciplinas_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="127" package="">
+        <name>getModulo</name>
+        <type>function</type>
+        <docblock line="122">
+          <description><![CDATA[Gets a theme data]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="122" name="return" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="127">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="140" package="">
+        <name>delModulo</name>
+        <type>function</type>
+        <docblock line="134">
+          <description><![CDATA[Deletes the theme from the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="134" name="param" description="The theme id *" type="\id" variable="$id">
+            <type by_reference="false">\id</type>
+          </tag>
+          <tag line="134" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="140">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="140">
+          <name>$row</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="156" package="">
+        <name>delModulos</name>
+        <type>function</type>
+        <docblock line="150">
+          <description><![CDATA[Deletes the list of themes data from the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="150" name="param" description="An array with the themes id *" type="\id_list" variable="$id_list">
+            <type by_reference="false">\id_list</type>
+          </tag>
+          <tag line="150" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="156">
+          <name>$id_list</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="184" package="">
+        <name>updateModulo</name>
+        <type>function</type>
+        <docblock line="175">
+          <description><![CDATA[Inserts a theme data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="175" name="param" description="The theme id" type="\id" variable="$id">
+            <type by_reference="false">\id</type>
+          </tag>
+          <tag line="175" name="param" description="The theme number" type="\numero" variable="$numero">
+            <type by_reference="false">\numero</type>
+          </tag>
+          <tag line="175" name="param" description="the theme name" type="\designacao" variable="$designacao">
+            <type by_reference="false">\designacao</type>
+          </tag>
+          <tag line="175" name="param" description="JTable representing the table where insertion is to be made" type="\table" variable="$row">
+            <type by_reference="false">\table</type>
+          </tag>
+          <tag line="175" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="184">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="184">
+          <name>$numero</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="184">
+          <name>$designacao</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="184">
+          <name>$row</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="212" package="">
+        <name>updateModulos</name>
+        <type>function</type>
+        <docblock line="206">
+          <description><![CDATA[Updates a list of themes]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="206" name="param" description="The theme list to update" type="\lista_de_modulos" variable="$lista_de_modulos">
+            <type by_reference="false">\lista_de_modulos</type>
+          </tag>
+          <tag line="206" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="212">
+          <name>$lista_de_modulos</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/models/opcoes.php" hash="00f86877733ed2a62f7227dc822877d3" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/models/opcoes.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/models/disciplinas.php" hash="d742b5bb330a093b8edffc915259de5d" package="Default">
+    <parse_markers>
+      <notice line="10" code="50017">The type for the @param tag in getTable() is "type"; isn't this an IDE default?</notice>
+      <error line="8" code="50000">No DocBlock was found for inscricaoexamesModeldisciplinas</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/models/disciplinas.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="8" package="Default">
+      <name>inscricaoexamesModeldisciplinas</name>
+      <full_name>\inscricaoexamesModeldisciplinas</full_name>
+      <extends>\JModelItem</extends>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="19" package="">
+        <name>getTable</name>
+        <type>function</type>
+        <docblock line="10">
+          <description><![CDATA[Returns a reference to the a Table object, always creating it.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="10" name="param" description="The table type to instantiate" type="\type" variable="$type">
+            <type by_reference="false">\type</type>
+          </tag>
+          <tag line="10" name="param" description="A prefix for the table class name. Optional." type="string" variable="$prefix">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="10" name="param" description="Configuration array for model. Optional." type="array" variable="$config">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="10" name="return" description="A database object" type="\JTable">
+            <type by_reference="false">\JTable</type>
+          </tag>
+          <tag line="10" name="since" description="1.6"/>
+        </docblock>
+        <argument line="19">
+          <name>$type</name>
+          <default><![CDATA['disciplinas']]></default>
+          <type/>
+        </argument>
+        <argument line="19">
+          <name>$prefix</name>
+          <default><![CDATA['inscricaoexamesTable']]></default>
+          <type/>
+        </argument>
+        <argument line="19">
+          <name>$config</name>
+          <default><![CDATA[array()]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="31" package="">
+        <name>countDisciplinas</name>
+        <type>function</type>
+        <docblock line="24">
+          <description><![CDATA[Conta o número de disciplinas. Se $cursos_id for fornecido, conta o num de disciplinas daquele curso.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="24" name="author" description="Herberto Graça"/>
+          <tag line="24" name="param" description="Se existir, conta as disciplinas deste curso especifico" type="\$cursos_id" variable="$cursos_id">
+            <type by_reference="false">\$cursos_id</type>
+          </tag>
+          <tag line="24" name="return" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+        <argument line="31">
+          <name>$cursos_id</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="56" package="">
+        <name>insDisciplina</name>
+        <type>function</type>
+        <docblock line="49">
+          <description><![CDATA[Inserts a course data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="49" name="param" description="The course name to be inserted" type="\disciplina" variable="$disciplina">
+            <type by_reference="false">\disciplina</type>
+          </tag>
+          <tag line="49" name="param" description="JTable representing the table where insertion is to be made" type="\row" variable="$row">
+            <type by_reference="false">\row</type>
+          </tag>
+          <tag line="49" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="56">
+          <name>$disciplina</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="56">
+          <name>$row</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="82" package="">
+        <name>insDisciplinas</name>
+        <type>function</type>
+        <docblock line="76">
+          <description><![CDATA[Inserts a list of courses data into the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="76" name="param" description="The courses data to be inserted" type="\lista_de_disciplinas" variable="$lista_de_disciplinas">
+            <type by_reference="false">\lista_de_disciplinas</type>
+          </tag>
+          <tag line="76" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="82">
+          <name>$lista_de_disciplinas</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="107" package="">
+        <name>getDisciplinas</name>
+        <type>function</type>
+        <docblock line="100">
+          <description><![CDATA[Gets the list of subjects from the DB
+If the course ID is given, it returns the list of subjects in that course]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="100" name="param" description="the course ID" type="\$curso_id" variable="$curso_id">
+            <type by_reference="false">\$curso_id</type>
+          </tag>
+          <tag line="100" name="return" description="the list of courses data" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="107">
+          <name>$curso_id</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="121" package="">
+        <name>getDisciplinaModulo</name>
+        <type>function</type>
+        <docblock line="115">
+          <description><![CDATA[Gets the subject a given theme belongs to]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="115" name="param" description="the theme ID" type="\modulos_id" variable="$modulos_id">
+            <type by_reference="false">\modulos_id</type>
+          </tag>
+          <tag line="115" name="return" description="the list of courses data" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="121">
+          <name>$modulos_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="145" package="">
+        <name>delDisciplina</name>
+        <type>function</type>
+        <docblock line="138">
+          <description><![CDATA[Deletes the course from the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="138" name="param" description="The course id" type="\id" variable="$id">
+            <type by_reference="false">\id</type>
+          </tag>
+          <tag line="138" name="param" description="JTable A database object" type="\row" variable="$row">
+            <type by_reference="false">\row</type>
+          </tag>
+          <tag line="138" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="145">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="145">
+          <name>$row</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="161" package="">
+        <name>delDisciplinas</name>
+        <type>function</type>
+        <docblock line="155">
+          <description><![CDATA[Deletes the list of courses data from the DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="155" name="param" description="An array with the courses id" type="\id_list" variable="$id_list">
+            <type by_reference="false">\id_list</type>
+          </tag>
+          <tag line="155" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="161">
+          <name>$id_list</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/models/alunos.php" hash="6bbffc46cbc63825c91ca732d1067e7d" package="Default">
+    <parse_markers>
+      <notice line="10" code="50017">The type for the @param tag in getTable() is "type"; isn't this an IDE default?</notice>
+      <error line="75" code="50015">Argument $id is missing from the Docblock of setAlunoID()</error>
+      <notice line="114" code="50013">Parameter  could not be found in setAluno()</notice>
+      <error line="8" code="50000">No DocBlock was found for inscricaoexamesModelAlunos</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/models/alunos.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="8" package="Default">
+      <name>inscricaoexamesModelAlunos</name>
+      <full_name>\inscricaoexamesModelAlunos</full_name>
+      <extends>\JModelItem</extends>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="20" package="">
+        <name>getTable</name>
+        <type>function</type>
+        <docblock line="10">
+          <description><![CDATA[Returns a reference to the a Table object, always creating it.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="10" name="author" description="Herberto Graça"/>
+          <tag line="10" name="param" description="The table type to instantiate" type="\type" variable="$type">
+            <type by_reference="false">\type</type>
+          </tag>
+          <tag line="10" name="param" description="A prefix for the table class name. Optional." type="string" variable="$prefix">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="10" name="param" description="Configuration array for model. Optional." type="array" variable="$config">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="10" name="return" description="A database object" type="\JTable">
+            <type by_reference="false">\JTable</type>
+          </tag>
+          <tag line="10" name="since" description="1.6"/>
+        </docblock>
+        <argument line="20">
+          <name>$type</name>
+          <default><![CDATA['alunos']]></default>
+          <type/>
+        </argument>
+        <argument line="20">
+          <name>$prefix</name>
+          <default><![CDATA['inscricaoexamesTable']]></default>
+          <type/>
+        </argument>
+        <argument line="20">
+          <name>$config</name>
+          <default><![CDATA[array()]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="32" package="">
+        <name>registado</name>
+        <type>function</type>
+        <docblock line="25">
+          <description><![CDATA[Checks if a student is registered in the application. If there is no Joomla ID associated with a personal ID, returns false.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="25" name="author" description="Herberto Graça"/>
+          <tag line="25" name="param" description="Joomla user ID (opcional)" type="\id" variable="$id">
+            <type by_reference="false">\id</type>
+          </tag>
+          <tag line="25" name="return" description="" type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+        </docblock>
+        <argument line="32">
+          <name>$id</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="55" package="">
+        <name>existe</name>
+        <type>function</type>
+        <docblock line="48">
+          <description><![CDATA[Check if a student exists in the application]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="48" name="author" description="Herberto Graça"/>
+          <tag line="48" name="param" description="student personal ID nbr" type="\bi" variable="$bi">
+            <type by_reference="false">\bi</type>
+          </tag>
+          <tag line="48" name="return" description="" type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+        </docblock>
+        <argument line="55">
+          <name>$bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="69" package="">
+        <name>getAlunoID</name>
+        <type>function</type>
+        <docblock line="61">
+          <description><![CDATA[Returns a Joomla ID associated with a personal ID
+Devolve o ID do Joomla correspondente a um BI da aplicação. Se o seu BI não existir na BD, devolve false. Se o ID n existir devolve null.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="61" name="author" description="Herberto Graça"/>
+          <tag line="61" name="param" description="personal student ID" type="\bi" variable="$bi">
+            <type by_reference="false">\bi</type>
+          </tag>
+          <tag line="61" name="return" description="Joomla ID correspondent to the personal ID given. False if the personal ID doesn't exist, NULL if the Joomla ID doesn't exist." type="\The">
+            <type by_reference="false">\The</type>
+          </tag>
+        </docblock>
+        <argument line="69">
+          <name>$bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="82" package="">
+        <name>setAlunoID</name>
+        <type>function</type>
+        <docblock line="75">
+          <description><![CDATA[Associates a Joomal ID to a personal ID]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="75" name="author" description="Herberto Graça"/>
+          <tag line="75" name="param" description="personal student ID" type="\bi" variable="$bi">
+            <type by_reference="false">\bi</type>
+          </tag>
+          <tag line="75" name="return" description="if successfull" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="82">
+          <name>$bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="82">
+          <name>$id</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="104" package="">
+        <name>unSetAlunoID</name>
+        <type>function</type>
+        <docblock line="97">
+          <description><![CDATA[Deletes the association between a Joomla ID and a personal ID]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="97" name="author" description="Herberto Graça"/>
+          <tag line="97" name="param" description="personal student ID" type="\bi" variable="$bi">
+            <type by_reference="false">\bi</type>
+          </tag>
+          <tag line="97" name="return" description="if successfull" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="104">
+          <name>$bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="125" package="">
+        <name>setAluno</name>
+        <type>function</type>
+        <docblock line="114">
+          <description><![CDATA[Insert student data]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="114" name="author" description="Herberto Graça"/>
+          <tag line="114" name="param" description="Joomla ID" type="\id" variable="$id">
+            <type by_reference="false">\id</type>
+          </tag>
+          <tag line="114" name="param" description="personal ID" type="\bi" variable="$bi">
+            <type by_reference="false">\bi</type>
+          </tag>
+          <tag line="114" name="param" description="student name" type="\nome" variable="$nome">
+            <type by_reference="false">\nome</type>
+          </tag>
+          <tag line="114" name="param" description="student nbr" type="\num" variable="$cursos_id">
+            <type by_reference="false">\num</type>
+          </tag>
+          <tag line="114" name="param" description="course ID" type="\$cursos_id" variable="">
+            <type by_reference="false">\$cursos_id</type>
+          </tag>
+          <tag line="114" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="125">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="125">
+          <name>$bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="125">
+          <name>$nome</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="125">
+          <name>$cursos_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="158" package="">
+        <name>insAlunos</name>
+        <type>function</type>
+        <docblock line="150">
+          <description><![CDATA[Insert student list in a course]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="150" name="author" description="Herberto Graça"/>
+          <tag line="150" name="param" description="Array with the class data to be inserted" type="\lista_de_items" variable="$lista_de_items">
+            <type by_reference="false">\lista_de_items</type>
+          </tag>
+          <tag line="150" name="param" description="The course ID" type="\$curso_id" variable="$curso_id">
+            <type by_reference="false">\$curso_id</type>
+          </tag>
+          <tag line="150" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="158">
+          <name>$lista_de_items</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="158">
+          <name>$curso_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="179" package="">
+        <name>getAlunos</name>
+        <type>function</type>
+        <docblock line="172">
+          <description><![CDATA[Gets the list of alunos in a course]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="172" name="author" description="Herberto Graça"/>
+          <tag line="172" name="param" description="The course id" type="\turmas_id" variable="$turmas_id">
+            <type by_reference="false">\turmas_id</type>
+          </tag>
+          <tag line="172" name="return" description="the list of modules" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="179">
+          <name>$turmas_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="default" line="193" package="">
+        <name>delAluno</name>
+        <type>function</type>
+        <docblock line="185">
+          <description><![CDATA[Deletes a student]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="185" name="author" description="Herberto Graça"/>
+          <tag line="185" name="param" description="student id" type="\id" variable="$id">
+            <type by_reference="false">\id</type>
+          </tag>
+          <tag line="185" name="param" description="table object" type="\row" variable="$row">
+            <type by_reference="false">\row</type>
+          </tag>
+          <tag line="185" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="193">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="193">
+          <name>$row</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="210" package="">
+        <name>delAlunos</name>
+        <type>function</type>
+        <docblock line="203">
+          <description><![CDATA[delete a student list]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="203" name="author" description="Herberto Graça"/>
+          <tag line="203" name="param" description="array with students IDs" type="\id_list" variable="$id_list">
+            <type by_reference="false">\id_list</type>
+          </tag>
+          <tag line="203" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="210">
+          <name>$id_list</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="235" package="">
+        <name>updateAlunos</name>
+        <type>function</type>
+        <docblock line="228">
+          <description><![CDATA[update several student data]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="228" name="author" description="Herberto Graça"/>
+          <tag line="228" name="param" description="array with student data" type="\lista" variable="$lista">
+            <type by_reference="false">\lista</type>
+          </tag>
+          <tag line="228" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="235">
+          <name>$lista</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="256" package="">
+        <name>getAluno</name>
+        <type>function</type>
+        <docblock line="249">
+          <description><![CDATA[Returns a student data (alunos, cursos)]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="249" name="author" description="Herberto Graça"/>
+          <tag line="249" name="param" description="student id" type="\id" variable="$user_id">
+            <type by_reference="false">\id</type>
+          </tag>
+          <tag line="249" name="return" description="[id, nome, cursos_id, curso]" type="Object">
+            <type by_reference="false">Object</type>
+          </tag>
+        </docblock>
+        <argument line="256">
+          <name>$user_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="289" package="">
+        <name>getAlunosCurso</name>
+        <type>function</type>
+        <docblock line="282">
+          <description><![CDATA[Returns a list of the students in a course]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="282" name="author" description="Herberto Graça"/>
+          <tag line="282" name="param" description="course ID" type="\cursos_id" variable="$cursos_id">
+            <type by_reference="false">\cursos_id</type>
+          </tag>
+          <tag line="282" name="return" description="array" type="\associative">
+            <type by_reference="false">\associative</type>
+          </tag>
+        </docblock>
+        <argument line="289">
+          <name>$cursos_id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="319" package="">
+        <name>setAutorizacao</name>
+        <type>function</type>
+        <docblock line="311">
+          <description><![CDATA[set the exam authorization for a student]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="311" name="author" description="Herberto Graça"/>
+          <tag line="311" name="param" description="the student ID" type="\alunos_bi" variable="$alunos_bi">
+            <type by_reference="false">\alunos_bi</type>
+          </tag>
+          <tag line="311" name="param" description="boolean, the value to set" type="\value" variable="$value">
+            <type by_reference="false">\value</type>
+          </tag>
+          <tag line="311" name="return" description="on success" type="true">
+            <type by_reference="false">true</type>
+          </tag>
+        </docblock>
+        <argument line="319">
+          <name>$alunos_bi</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="319">
+          <name>$value</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="site/controller.php" hash="95be887a13213d0a7b1687c4e79716d1" package="Default">
+    <parse_markers>
+      <error line="70" code="50015">Argument $cid is missing from the Docblock of eliminar_cursos()</error>
+      <error line="123" code="50015">Argument $cid is missing from the Docblock of eliminar_disciplinas()</error>
+      <error line="152" code="50015">Argument $disciplinas is missing from the Docblock of editar_disc_cursos()</error>
+      <error line="212" code="50015">Argument $cid is missing from the Docblock of editar_modulos()</error>
+      <error line="376" code="50015">Argument $cid is missing from the Docblock of editar_alunos()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/controller.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="11" package="inscricaoexames">
+      <name>inscricaoexamesController</name>
+      <full_name>\inscricaoexamesController</full_name>
+      <extends>\JController</extends>
+      <docblock line="5">
+        <description><![CDATA[Component Controller]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="5" name="author" description="Herberto Graça"/>
+        <tag line="5" name="package" description="inscricaoexames"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="19" package="">
+        <name>criar_cursos</name>
+        <type>function</type>
+        <docblock line="14">
+          <description><![CDATA[Creates courses]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="14" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="51" package="">
+        <name>actualizar_cursos</name>
+        <type>function</type>
+        <docblock line="46">
+          <description><![CDATA[updates data in several courses]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="46" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="75" package="">
+        <name>eliminar_cursos</name>
+        <type>function</type>
+        <docblock line="70">
+          <description><![CDATA[deletes courses]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="70" name="author" description="Herberto Graça"/>
+        </docblock>
+        <argument line="75">
+          <name>$cid</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="103" package="">
+        <name>criar_disciplinas</name>
+        <type>function</type>
+        <docblock line="98">
+          <description><![CDATA[create subjects]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="98" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="128" package="">
+        <name>eliminar_disciplinas</name>
+        <type>function</type>
+        <docblock line="123">
+          <description><![CDATA[delete subjects]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="123" name="author" description="Herberto Graça"/>
+        </docblock>
+        <argument line="128">
+          <name>$cid</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="157" package="">
+        <name>editar_disc_cursos</name>
+        <type>function</type>
+        <docblock line="152">
+          <description><![CDATA[Save subjects in a course]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="152" name="author" description="Herberto Graça"/>
+        </docblock>
+        <argument line="157">
+          <name>$disciplinas</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="190" package="">
+        <name>criar_modulos</name>
+        <type>function</type>
+        <docblock line="185">
+          <description><![CDATA[Create themes]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="185" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="217" package="">
+        <name>editar_modulos</name>
+        <type>function</type>
+        <docblock line="212">
+          <description><![CDATA[edit themes]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="212" name="author" description="Herberto Graça"/>
+        </docblock>
+        <argument line="217">
+          <name>$cid</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="352" package="">
+        <name>criar_alunos</name>
+        <type>function</type>
+        <docblock line="347">
+          <description><![CDATA[Inserts in DB the ID of students who are allowed to register in the application]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="347" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="381" package="">
+        <name>editar_alunos</name>
+        <type>function</type>
+        <docblock line="376">
+          <description><![CDATA[edit students]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="376" name="author" description="Herberto Graça"/>
+        </docblock>
+        <argument line="381">
+          <name>$cid</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="431" package="">
+        <name>guardar_aluno</name>
+        <type>function</type>
+        <docblock line="426">
+          <description><![CDATA[save student data]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="426" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="457" package="">
+        <name>eliminar_inscricoes</name>
+        <type>function</type>
+        <docblock line="452">
+          <description><![CDATA[deletes exam enrollment]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="452" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="502" package="">
+        <name>fazer_inscricao</name>
+        <type>function</type>
+        <docblock line="497">
+          <description><![CDATA[enroll a student in exams]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="497" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="559" package="">
+        <name>registar_aluno</name>
+        <type>function</type>
+        <docblock line="553">
+          <description><![CDATA[Registers a student in the application using hes ID, the joomla user_id, and other data as student nbr or course
+If the student is already registered, hes data is removed and registry is remade]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="553" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="site/inscricaoexames.php" hash="5709789a5aae21a4e7e1c3c7a4c7a837" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/inscricaoexames.php</error>
+    </parse_markers>
+  </file>
+  <file path="site/controllers/opcoes.php" hash="f07f6e45364f116122d0b45947146157" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/controllers/opcoes.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="14" package="inscricaoexames">
+      <name>inscricaoexamesControllerOpcoes</name>
+      <full_name>\inscricaoexamesControllerOpcoes</full_name>
+      <extends>\JController</extends>
+      <docblock line="8">
+        <description><![CDATA[Grupos Controller]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="8" name="author" description="Herberto Graça"/>
+        <tag line="8" name="package" description="inscricaoexames"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="21" package="">
+        <name>setOpcoes</name>
+        <type>function</type>
+        <docblock line="16">
+          <description><![CDATA[Sets application options]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="16" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="site/helpers/icon.php" hash="ea6c84e04a558126b8588b621ed10d63" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file site/helpers/icon.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="11" package="Default">
+      <name>JHtmlIcon</name>
+      <full_name>\JHtmlIcon</full_name>
+      <extends/>
+      <docblock line="6">
+        <description><![CDATA[Content Component HTML Helper]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="6" name="static" description=""/>
+      </docblock>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="default" line="21" package="">
+        <name>print_popup</name>
+        <type>function</type>
+        <docblock line="13">
+          <description><![CDATA[Creates a button to popup a window ready for printing]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="13" name="param" description="" type="string" variable="$option">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="13" name="param" description="" type="string" variable="$view">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="13" name="param" description="" type="string" variable="$layout">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="13" name="param" description="" type="int" variable="$user_id">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+        <argument line="21">
+          <name>$option</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="21">
+          <name>$view</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="21">
+          <name>$layout</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="21">
+          <name>$user_id</name>
+          <default><![CDATA[false]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="default" line="42" package="">
+        <name>print_screen</name>
+        <type>function</type>
+        <docblock line="38">
+          <description><![CDATA[Creates a button to print data in window]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="admin/views/opcoes/view.html.php" hash="5839e15ec8f9e2e27ffd2f03fc427d73" package="Default">
+    <parse_markers>
+      <error line="12" code="50010">No DocBlock was found for method display()</error>
+      <error line="10" code="50000">No DocBlock was found for InscricaoexamesViewOpcoes</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/views/opcoes/view.html.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="10" package="Default">
+      <name>InscricaoexamesViewOpcoes</name>
+      <full_name>\InscricaoexamesViewOpcoes</full_name>
+      <extends>\JView</extends>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="12" package="">
+        <name>display</name>
+        <type>function</type>
+        <argument line="12">
+          <name>$tpl</name>
+          <default><![CDATA[null]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="39" package="">
+        <name>addToolBar</name>
+        <type>function</type>
+        <docblock line="36">
+          <description><![CDATA[Setting the toolbar]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="49" package="">
+        <name>setDocument</name>
+        <type>function</type>
+        <docblock line="44">
+          <description><![CDATA[Method to set up the document properties]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="44" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="admin/views/opcoes/tmpl/default.php" hash="4701c0d47ab6593f0ffbe688f3377676" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/views/opcoes/tmpl/default.php</error>
+    </parse_markers>
+  </file>
+  <file path="admin/models/opcoes.php" hash="809d4cb7e5e3a006bb9244093b185946" package="Default">
+    <parse_markers>
+      <notice line="10" code="50017">The type for the @param tag in getTable() is "type"; isn't this an IDE default?</notice>
+      <error line="8" code="50000">No DocBlock was found for inscricaoexamesModelOpcoes</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/models/opcoes.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="8" package="Default">
+      <name>inscricaoexamesModelOpcoes</name>
+      <full_name>\inscricaoexamesModelOpcoes</full_name>
+      <extends>\JModelItem</extends>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="20" package="">
+        <name>getTable</name>
+        <type>function</type>
+        <docblock line="10">
+          <description><![CDATA[Returns a reference to the a Table object, always creating it.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="10" name="author" description="Herberto Graça"/>
+          <tag line="10" name="param" description="The table type to instantiate" type="\type" variable="$type">
+            <type by_reference="false">\type</type>
+          </tag>
+          <tag line="10" name="param" description="A prefix for the table class name. Optional." type="string" variable="$prefix">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="10" name="param" description="Configuration array for model. Optional." type="array" variable="$config">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="10" name="return" description="A database object" type="\JTable">
+            <type by_reference="false">\JTable</type>
+          </tag>
+          <tag line="10" name="since" description="1.6"/>
+        </docblock>
+        <argument line="20">
+          <name>$type</name>
+          <default><![CDATA['opcoes']]></default>
+          <type/>
+        </argument>
+        <argument line="20">
+          <name>$prefix</name>
+          <default><![CDATA['inscricaoexamesTable']]></default>
+          <type/>
+        </argument>
+        <argument line="20">
+          <name>$config</name>
+          <default><![CDATA[array()]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="31" package="">
+        <name>getGruposJoomla</name>
+        <type>function</type>
+        <docblock line="25">
+          <description><![CDATA[Returns a list of all the Joomla user groups available]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="25" name="author" description="Herberto Graça"/>
+          <tag line="25" name="return" description="associative array with all data from table usergroups" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="45" package="">
+        <name>getOpcao</name>
+        <type>function</type>
+        <docblock line="38">
+          <description><![CDATA[Returns one of the application options]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="38" name="author" description="Herberto Graça"/>
+          <tag line="38" name="param" description="one of the variables of the options table (OP_GRP_ALUNOS, OP_APROVAR_INS)" type="\$op" variable="$op">
+            <type by_reference="false">\$op</type>
+          </tag>
+          <tag line="38" name="return" description="associative array with all data from table opcoes" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="45">
+          <name>$op</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="61" package="">
+        <name>setOpcao</name>
+        <type>function</type>
+        <docblock line="53">
+          <description><![CDATA[set one of the application options]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="53" name="author" description="Herberto Graça"/>
+          <tag line="53" name="param" description="one of the variables of the options table (OP_GRP_ALUNOS, OP_APROVAR_INS)" type="\$var" variable="$var">
+            <type by_reference="false">\$var</type>
+          </tag>
+          <tag line="53" name="param" description="new value" type="\$value" variable="$value">
+            <type by_reference="false">\$value</type>
+          </tag>
+          <tag line="53" name="return" description="" type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+        </docblock>
+        <argument line="61">
+          <name>$var</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="61">
+          <name>$value</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="admin/tables/cursos.php" hash="1c43a6b4edc51ad655f580e0fb06bc34" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/tables/cursos.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="15" package="Default">
+      <name>inscricaoexamesTablecursos</name>
+      <full_name>\inscricaoexamesTablecursos</full_name>
+      <extends>\JTable</extends>
+      <docblock line="9">
+        <description><![CDATA[Maps a php object to a database table]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="9" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="22" package="">
+        <name>__construct</name>
+        <type>function</type>
+        <docblock line="17">
+          <description><![CDATA[Constructor]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="17" name="param" description="Database connector object" type="object" variable="$db">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="22">
+          <name>$db</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="admin/tables/modulos.php" hash="56fd9906dbaaaf5d9a88c15151ea4cfb" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/tables/modulos.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="15" package="Default">
+      <name>inscricaoexamesTablemodulos</name>
+      <full_name>\inscricaoexamesTablemodulos</full_name>
+      <extends>\JTable</extends>
+      <docblock line="9">
+        <description><![CDATA[Maps a php object to a database table]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="9" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="22" package="">
+        <name>__construct</name>
+        <type>function</type>
+        <docblock line="17">
+          <description><![CDATA[Constructor]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="17" name="param" description="Database connector object" type="object" variable="$db">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="22">
+          <name>$db</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="admin/tables/opcoes.php" hash="093dd25662330d82fb369a9537db85d1" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/tables/opcoes.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="15" package="Default">
+      <name>inscricaoexamesTableOpcoes</name>
+      <full_name>\inscricaoexamesTableOpcoes</full_name>
+      <extends>\JTable</extends>
+      <docblock line="9">
+        <description><![CDATA[Maps a php object to a database table]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="9" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="22" package="">
+        <name>__construct</name>
+        <type>function</type>
+        <docblock line="17">
+          <description><![CDATA[Constructor]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="17" name="param" description="Database connector object" type="object" variable="$db">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="22">
+          <name>$db</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="admin/tables/disciplinas.php" hash="37b15dfd091baaf161902cd16d62d6c0" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/tables/disciplinas.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="15" package="Default">
+      <name>inscricaoexamesTabledisciplinas</name>
+      <full_name>\inscricaoexamesTabledisciplinas</full_name>
+      <extends>\JTable</extends>
+      <docblock line="9">
+        <description><![CDATA[Maps a php object to a database table]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="9" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="22" package="">
+        <name>__construct</name>
+        <type>function</type>
+        <docblock line="17">
+          <description><![CDATA[Constructor]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="17" name="param" description="Database connector object" type="object" variable="$db">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="22">
+          <name>$db</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="admin/tables/alunos.php" hash="5cc64dc7ce157871696564fcfaac4632" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/tables/alunos.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="15" package="Default">
+      <name>inscricaoexamesTablealunos</name>
+      <full_name>\inscricaoexamesTablealunos</full_name>
+      <extends>\JTable</extends>
+      <docblock line="9">
+        <description><![CDATA[Maps a php object to a database table]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="9" name="author" description="herberto"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="22" package="">
+        <name>__construct</name>
+        <type>function</type>
+        <docblock line="17">
+          <description><![CDATA[Constructor]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="17" name="param" description="Database connector object" type="object" variable="$db">
+            <type by_reference="false">object</type>
+          </tag>
+        </docblock>
+        <argument line="22">
+          <name>$db</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="admin/admin.inscricaoexames.php" hash="76a4a0a486f5c286058b097a1c259a61" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/admin.inscricaoexames.php</error>
+    </parse_markers>
+  </file>
+  <file path="admin/controller.php" hash="9783ca08a797b3756d858a981fe96e55" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/controller.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="10" package="inscricaoexames">
+      <name>inscricaoexamesController</name>
+      <full_name>\inscricaoexamesController</full_name>
+      <extends>\JController</extends>
+      <docblock line="5">
+        <description><![CDATA[Component Admin Controller]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="5" name="package" description="inscricaoexames"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="17" package="">
+        <name>display</name>
+        <type>function</type>
+        <docblock line="12">
+          <description><![CDATA[Method to display the view]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="12" name="access" description="public"/>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="admin/controllers/opcoes.php" hash="2fefd13b47a9a09f90920c6656f32d5f" package="Default">
+    <parse_markers>
+      <error line="13" code="50015">Argument $name is missing from the Docblock of getModel()</error>
+      <error line="13" code="50015">Argument $prefix is missing from the Docblock of getModel()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file admin/controllers/opcoes.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="11" package="Default">
+      <name>inscricaoexamesControllerOpcoes</name>
+      <full_name>\inscricaoexamesControllerOpcoes</full_name>
+      <extends>\JController</extends>
+      <docblock line="8">
+        <description><![CDATA[Opcoes Controller (Joomla back-end)]]></description>
+        <long-description><![CDATA[]]></long-description>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="17" package="">
+        <name>getModel</name>
+        <type>function</type>
+        <docblock line="13">
+          <description><![CDATA[Proxy for getModel.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="13" name="since" description="1.6"/>
+        </docblock>
+        <argument line="17">
+          <name>$name</name>
+          <default><![CDATA['opcoes']]></default>
+          <type/>
+        </argument>
+        <argument line="17">
+          <name>$prefix</name>
+          <default><![CDATA['inscricaoexamesModel']]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="28" package="">
+        <name>setOpcoes</name>
+        <type>function</type>
+        <docblock line="23">
+          <description><![CDATA[Saves options]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="23" name="author" description="Herberto Graça"/>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <package name="" full_name=""/>
+  <package name="Default" full_name="Default"/>
+  <package name="inscricaoexames" full_name="inscricaoexames"/>
+  <namespace name="default" full_name="default"/>
+  <marker count="0">1</marker>
+  <deprecated count="0"/>
+</project>

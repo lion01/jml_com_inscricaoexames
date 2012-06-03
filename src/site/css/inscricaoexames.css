@@ -1,0 +1,7 @@
+
+#invisivel tr, #invisivel td, #invisivel th
+{
+border: 0px none;
+}
+
+.break { page-break-before: always; }
